@@ -1,0 +1,5 @@
+roboflow            # Dataset
+torch               # PyTorch
+torchvision         # PyTorch Vision
+matplotlib          # Plotting
+ultralytics         # YOLO
