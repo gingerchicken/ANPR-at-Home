@@ -1,6 +1,9 @@
 Plate-or-No-Plate*
 Journey-Cam-ANPR*
 *.pt
+runs
+
+dataset/plates
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
