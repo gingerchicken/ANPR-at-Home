@@ -2,6 +2,7 @@ Plate-or-No-Plate*
 Journey-Cam-ANPR*
 *.pt
 runs
+dataset/UKLicencePlateDataset
 
 dataset/plates
 

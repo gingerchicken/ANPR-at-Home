@@ -1,5 +1,12 @@
 roboflow            # Dataset
+kaggle              # Dataset
+kagglehub           # Kaggle Hub
+
+pandas              # Data manipulation
+numpy               # Numerical operations
+
 torch               # PyTorch
 torchvision         # PyTorch Vision
 matplotlib          # Plotting
 ultralytics         # YOLO
+scikit-learn        # Machine learning
