@@ -1,0 +1,1946 @@
+{
+  "data_kind": "synthetic",
+  "checkpoint": "/home/matt/ANPR-at-Home/runs/coverage-study/spatial.pt",
+  "checkpoint_sha256": "6dd8870ea1f33860832ec2a24f5237e66bc823ab9eef6e9d311a6d36395e8666",
+  "manifest": "/home/matt/ANPR-at-Home/runs/coverage-study/data/manifest.csv",
+  "manifest_sha256": "2944b73810dcd55b52ade7f7853346d778c94dd4db997a8ce15bfdaccb20e8e0",
+  "seed": 42,
+  "split_counts": {
+    "train": 1400,
+    "val": 300,
+    "test": 300
+  },
+  "evaluated_split": "test",
+  "temperature": 1.1393675814867592,
+  "calibration": {
+    "temperature": 1.1393675814867592,
+    "fit_split": "val",
+    "validation_sample_count": 300,
+    "validation_provenance": [
+      {
+        "plate": "ILAZC",
+        "group": "synthetic-ILAZC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ILAZC_clean.png"
+      },
+      {
+        "plate": "ILAZC",
+        "group": "synthetic-ILAZC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ILAZC_defocus.png"
+      },
+      {
+        "plate": "RQAHL",
+        "group": "synthetic-RQAHL",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/RQAHL_clean.png"
+      },
+      {
+        "plate": "RQAHL",
+        "group": "synthetic-RQAHL",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/RQAHL_defocus.png"
+      },
+      {
+        "plate": "P5B",
+        "group": "synthetic-P5B",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/P5B_clean.png"
+      },
+      {
+        "plate": "P5B",
+        "group": "synthetic-P5B",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/P5B_defocus.png"
+      },
+      {
+        "plate": "ST",
+        "group": "synthetic-ST",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ST_clean.png"
+      },
+      {
+        "plate": "ST",
+        "group": "synthetic-ST",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ST_defocus.png"
+      },
+      {
+        "plate": "K82WU9",
+        "group": "synthetic-K82WU9",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/K82WU9_clean.png"
+      },
+      {
+        "plate": "K82WU9",
+        "group": "synthetic-K82WU9",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/K82WU9_defocus.png"
+      },
+      {
+        "plate": "XLZYOBB",
+        "group": "synthetic-XLZYOBB",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XLZYOBB_clean.png"
+      },
+      {
+        "plate": "XLZYOBB",
+        "group": "synthetic-XLZYOBB",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XLZYOBB_defocus.png"
+      },
+      {
+        "plate": "9LC5B",
+        "group": "synthetic-9LC5B",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/9LC5B_clean.png"
+      },
+      {
+        "plate": "9LC5B",
+        "group": "synthetic-9LC5B",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/9LC5B_defocus.png"
+      },
+      {
+        "plate": "57XD6KE",
+        "group": "synthetic-57XD6KE",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/57XD6KE_clean.png"
+      },
+      {
+        "plate": "57XD6KE",
+        "group": "synthetic-57XD6KE",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/57XD6KE_defocus.png"
+      },
+      {
+        "plate": "F9SXMEC",
+        "group": "synthetic-F9SXMEC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/F9SXMEC_clean.png"
+      },
+      {
+        "plate": "F9SXMEC",
+        "group": "synthetic-F9SXMEC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/F9SXMEC_defocus.png"
+      },
+      {
+        "plate": "K",
+        "group": "synthetic-K",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/K_clean.png"
+      },
+      {
+        "plate": "K",
+        "group": "synthetic-K",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/K_defocus.png"
+      },
+      {
+        "plate": "0HUH",
+        "group": "synthetic-0HUH",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/0HUH_clean.png"
+      },
+      {
+        "plate": "0HUH",
+        "group": "synthetic-0HUH",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/0HUH_defocus.png"
+      },
+      {
+        "plate": "IKQAV",
+        "group": "synthetic-IKQAV",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/IKQAV_clean.png"
+      },
+      {
+        "plate": "IKQAV",
+        "group": "synthetic-IKQAV",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/IKQAV_defocus.png"
+      },
+      {
+        "plate": "INE9",
+        "group": "synthetic-INE9",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/INE9_clean.png"
+      },
+      {
+        "plate": "INE9",
+        "group": "synthetic-INE9",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/INE9_defocus.png"
+      },
+      {
+        "plate": "AS2YU7C",
+        "group": "synthetic-AS2YU7C",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/AS2YU7C_clean.png"
+      },
+      {
+        "plate": "AS2YU7C",
+        "group": "synthetic-AS2YU7C",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/AS2YU7C_defocus.png"
+      },
+      {
+        "plate": "1F",
+        "group": "synthetic-1F",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1F_clean.png"
+      },
+      {
+        "plate": "1F",
+        "group": "synthetic-1F",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1F_defocus.png"
+      },
+      {
+        "plate": "AA",
+        "group": "synthetic-AA",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/AA_clean.png"
+      },
+      {
+        "plate": "AA",
+        "group": "synthetic-AA",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/AA_defocus.png"
+      },
+      {
+        "plate": "R5",
+        "group": "synthetic-R5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/R5_clean.png"
+      },
+      {
+        "plate": "R5",
+        "group": "synthetic-R5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/R5_defocus.png"
+      },
+      {
+        "plate": "DSB",
+        "group": "synthetic-DSB",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/DSB_clean.png"
+      },
+      {
+        "plate": "DSB",
+        "group": "synthetic-DSB",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/DSB_defocus.png"
+      },
+      {
+        "plate": "IU89YNS",
+        "group": "synthetic-IU89YNS",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/IU89YNS_clean.png"
+      },
+      {
+        "plate": "IU89YNS",
+        "group": "synthetic-IU89YNS",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/IU89YNS_defocus.png"
+      },
+      {
+        "plate": "PY",
+        "group": "synthetic-PY",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/PY_clean.png"
+      },
+      {
+        "plate": "PY",
+        "group": "synthetic-PY",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/PY_defocus.png"
+      },
+      {
+        "plate": "LCM",
+        "group": "synthetic-LCM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LCM_clean.png"
+      },
+      {
+        "plate": "LCM",
+        "group": "synthetic-LCM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LCM_defocus.png"
+      },
+      {
+        "plate": "XDR7CET",
+        "group": "synthetic-XDR7CET",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XDR7CET_clean.png"
+      },
+      {
+        "plate": "XDR7CET",
+        "group": "synthetic-XDR7CET",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XDR7CET_defocus.png"
+      },
+      {
+        "plate": "EFKVOUU",
+        "group": "synthetic-EFKVOUU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/EFKVOUU_clean.png"
+      },
+      {
+        "plate": "EFKVOUU",
+        "group": "synthetic-EFKVOUU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/EFKVOUU_defocus.png"
+      },
+      {
+        "plate": "MV4",
+        "group": "synthetic-MV4",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/MV4_clean.png"
+      },
+      {
+        "plate": "MV4",
+        "group": "synthetic-MV4",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/MV4_defocus.png"
+      },
+      {
+        "plate": "5FPHU",
+        "group": "synthetic-5FPHU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/5FPHU_clean.png"
+      },
+      {
+        "plate": "5FPHU",
+        "group": "synthetic-5FPHU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/5FPHU_defocus.png"
+      },
+      {
+        "plate": "TZ9",
+        "group": "synthetic-TZ9",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/TZ9_clean.png"
+      },
+      {
+        "plate": "TZ9",
+        "group": "synthetic-TZ9",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/TZ9_defocus.png"
+      },
+      {
+        "plate": "NM",
+        "group": "synthetic-NM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/NM_clean.png"
+      },
+      {
+        "plate": "NM",
+        "group": "synthetic-NM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/NM_defocus.png"
+      },
+      {
+        "plate": "BE81JAM",
+        "group": "synthetic-BE81JAM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/BE81JAM_clean.png"
+      },
+      {
+        "plate": "BE81JAM",
+        "group": "synthetic-BE81JAM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/BE81JAM_defocus.png"
+      },
+      {
+        "plate": "UUW",
+        "group": "synthetic-UUW",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/UUW_clean.png"
+      },
+      {
+        "plate": "UUW",
+        "group": "synthetic-UUW",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/UUW_defocus.png"
+      },
+      {
+        "plate": "HF",
+        "group": "synthetic-HF",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/HF_clean.png"
+      },
+      {
+        "plate": "HF",
+        "group": "synthetic-HF",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/HF_defocus.png"
+      },
+      {
+        "plate": "601ZF",
+        "group": "synthetic-601ZF",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/601ZF_clean.png"
+      },
+      {
+        "plate": "601ZF",
+        "group": "synthetic-601ZF",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/601ZF_defocus.png"
+      },
+      {
+        "plate": "31L3619",
+        "group": "synthetic-31L3619",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/31L3619_clean.png"
+      },
+      {
+        "plate": "31L3619",
+        "group": "synthetic-31L3619",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/31L3619_defocus.png"
+      },
+      {
+        "plate": "ME63TGJ",
+        "group": "synthetic-ME63TGJ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ME63TGJ_clean.png"
+      },
+      {
+        "plate": "ME63TGJ",
+        "group": "synthetic-ME63TGJ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ME63TGJ_defocus.png"
+      },
+      {
+        "plate": "HJ",
+        "group": "synthetic-HJ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/HJ_clean.png"
+      },
+      {
+        "plate": "HJ",
+        "group": "synthetic-HJ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/HJ_defocus.png"
+      },
+      {
+        "plate": "2H",
+        "group": "synthetic-2H",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/2H_clean.png"
+      },
+      {
+        "plate": "2H",
+        "group": "synthetic-2H",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/2H_defocus.png"
+      },
+      {
+        "plate": "Q",
+        "group": "synthetic-Q",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/Q_clean.png"
+      },
+      {
+        "plate": "Q",
+        "group": "synthetic-Q",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/Q_defocus.png"
+      },
+      {
+        "plate": "RFT",
+        "group": "synthetic-RFT",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/RFT_clean.png"
+      },
+      {
+        "plate": "RFT",
+        "group": "synthetic-RFT",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/RFT_defocus.png"
+      },
+      {
+        "plate": "GK64ZZP",
+        "group": "synthetic-GK64ZZP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/GK64ZZP_clean.png"
+      },
+      {
+        "plate": "GK64ZZP",
+        "group": "synthetic-GK64ZZP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/GK64ZZP_defocus.png"
+      },
+      {
+        "plate": "72",
+        "group": "synthetic-72",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/72_clean.png"
+      },
+      {
+        "plate": "72",
+        "group": "synthetic-72",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/72_defocus.png"
+      },
+      {
+        "plate": "P4",
+        "group": "synthetic-P4",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/P4_clean.png"
+      },
+      {
+        "plate": "P4",
+        "group": "synthetic-P4",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/P4_defocus.png"
+      },
+      {
+        "plate": "MK5",
+        "group": "synthetic-MK5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/MK5_clean.png"
+      },
+      {
+        "plate": "MK5",
+        "group": "synthetic-MK5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/MK5_defocus.png"
+      },
+      {
+        "plate": "8N",
+        "group": "synthetic-8N",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8N_clean.png"
+      },
+      {
+        "plate": "8N",
+        "group": "synthetic-8N",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8N_defocus.png"
+      },
+      {
+        "plate": "PA79HGJ",
+        "group": "synthetic-PA79HGJ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/PA79HGJ_clean.png"
+      },
+      {
+        "plate": "PA79HGJ",
+        "group": "synthetic-PA79HGJ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/PA79HGJ_defocus.png"
+      },
+      {
+        "plate": "GU",
+        "group": "synthetic-GU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/GU_clean.png"
+      },
+      {
+        "plate": "GU",
+        "group": "synthetic-GU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/GU_defocus.png"
+      },
+      {
+        "plate": "FP91TUJ",
+        "group": "synthetic-FP91TUJ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/FP91TUJ_clean.png"
+      },
+      {
+        "plate": "FP91TUJ",
+        "group": "synthetic-FP91TUJ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/FP91TUJ_defocus.png"
+      },
+      {
+        "plate": "KXWNRE",
+        "group": "synthetic-KXWNRE",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/KXWNRE_clean.png"
+      },
+      {
+        "plate": "KXWNRE",
+        "group": "synthetic-KXWNRE",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/KXWNRE_defocus.png"
+      },
+      {
+        "plate": "QM52ORK",
+        "group": "synthetic-QM52ORK",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/QM52ORK_clean.png"
+      },
+      {
+        "plate": "QM52ORK",
+        "group": "synthetic-QM52ORK",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/QM52ORK_defocus.png"
+      },
+      {
+        "plate": "1KINND",
+        "group": "synthetic-1KINND",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1KINND_clean.png"
+      },
+      {
+        "plate": "1KINND",
+        "group": "synthetic-1KINND",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1KINND_defocus.png"
+      },
+      {
+        "plate": "XY18VGP",
+        "group": "synthetic-XY18VGP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XY18VGP_clean.png"
+      },
+      {
+        "plate": "XY18VGP",
+        "group": "synthetic-XY18VGP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XY18VGP_defocus.png"
+      },
+      {
+        "plate": "GW9X",
+        "group": "synthetic-GW9X",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/GW9X_clean.png"
+      },
+      {
+        "plate": "GW9X",
+        "group": "synthetic-GW9X",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/GW9X_defocus.png"
+      },
+      {
+        "plate": "X497W",
+        "group": "synthetic-X497W",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/X497W_clean.png"
+      },
+      {
+        "plate": "X497W",
+        "group": "synthetic-X497W",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/X497W_defocus.png"
+      },
+      {
+        "plate": "5J",
+        "group": "synthetic-5J",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/5J_clean.png"
+      },
+      {
+        "plate": "5J",
+        "group": "synthetic-5J",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/5J_defocus.png"
+      },
+      {
+        "plate": "2SE0",
+        "group": "synthetic-2SE0",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/2SE0_clean.png"
+      },
+      {
+        "plate": "2SE0",
+        "group": "synthetic-2SE0",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/2SE0_defocus.png"
+      },
+      {
+        "plate": "9N4N",
+        "group": "synthetic-9N4N",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/9N4N_clean.png"
+      },
+      {
+        "plate": "9N4N",
+        "group": "synthetic-9N4N",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/9N4N_defocus.png"
+      },
+      {
+        "plate": "E",
+        "group": "synthetic-E",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/E_clean.png"
+      },
+      {
+        "plate": "E",
+        "group": "synthetic-E",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/E_defocus.png"
+      },
+      {
+        "plate": "FXKDZ",
+        "group": "synthetic-FXKDZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/FXKDZ_clean.png"
+      },
+      {
+        "plate": "FXKDZ",
+        "group": "synthetic-FXKDZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/FXKDZ_defocus.png"
+      },
+      {
+        "plate": "1H",
+        "group": "synthetic-1H",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1H_clean.png"
+      },
+      {
+        "plate": "1H",
+        "group": "synthetic-1H",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1H_defocus.png"
+      },
+      {
+        "plate": "3RY40KH",
+        "group": "synthetic-3RY40KH",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/3RY40KH_clean.png"
+      },
+      {
+        "plate": "3RY40KH",
+        "group": "synthetic-3RY40KH",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/3RY40KH_defocus.png"
+      },
+      {
+        "plate": "1V8PLE5",
+        "group": "synthetic-1V8PLE5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1V8PLE5_clean.png"
+      },
+      {
+        "plate": "1V8PLE5",
+        "group": "synthetic-1V8PLE5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1V8PLE5_defocus.png"
+      },
+      {
+        "plate": "1RVRRG",
+        "group": "synthetic-1RVRRG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1RVRRG_clean.png"
+      },
+      {
+        "plate": "1RVRRG",
+        "group": "synthetic-1RVRRG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1RVRRG_defocus.png"
+      },
+      {
+        "plate": "CTV",
+        "group": "synthetic-CTV",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/CTV_clean.png"
+      },
+      {
+        "plate": "CTV",
+        "group": "synthetic-CTV",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/CTV_defocus.png"
+      },
+      {
+        "plate": "LKS9L3X",
+        "group": "synthetic-LKS9L3X",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LKS9L3X_clean.png"
+      },
+      {
+        "plate": "LKS9L3X",
+        "group": "synthetic-LKS9L3X",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LKS9L3X_defocus.png"
+      },
+      {
+        "plate": "G",
+        "group": "synthetic-G",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/G_clean.png"
+      },
+      {
+        "plate": "G",
+        "group": "synthetic-G",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/G_defocus.png"
+      },
+      {
+        "plate": "E29G",
+        "group": "synthetic-E29G",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/E29G_clean.png"
+      },
+      {
+        "plate": "E29G",
+        "group": "synthetic-E29G",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/E29G_defocus.png"
+      },
+      {
+        "plate": "RCD",
+        "group": "synthetic-RCD",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/RCD_clean.png"
+      },
+      {
+        "plate": "RCD",
+        "group": "synthetic-RCD",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/RCD_defocus.png"
+      },
+      {
+        "plate": "QC",
+        "group": "synthetic-QC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/QC_clean.png"
+      },
+      {
+        "plate": "QC",
+        "group": "synthetic-QC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/QC_defocus.png"
+      },
+      {
+        "plate": "CD79RAU",
+        "group": "synthetic-CD79RAU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/CD79RAU_clean.png"
+      },
+      {
+        "plate": "CD79RAU",
+        "group": "synthetic-CD79RAU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/CD79RAU_defocus.png"
+      },
+      {
+        "plate": "YJLC90",
+        "group": "synthetic-YJLC90",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/YJLC90_clean.png"
+      },
+      {
+        "plate": "YJLC90",
+        "group": "synthetic-YJLC90",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/YJLC90_defocus.png"
+      },
+      {
+        "plate": "KO21KWQ",
+        "group": "synthetic-KO21KWQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/KO21KWQ_clean.png"
+      },
+      {
+        "plate": "KO21KWQ",
+        "group": "synthetic-KO21KWQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/KO21KWQ_defocus.png"
+      },
+      {
+        "plate": "JGG",
+        "group": "synthetic-JGG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/JGG_clean.png"
+      },
+      {
+        "plate": "JGG",
+        "group": "synthetic-JGG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/JGG_defocus.png"
+      },
+      {
+        "plate": "Q3S195J",
+        "group": "synthetic-Q3S195J",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/Q3S195J_clean.png"
+      },
+      {
+        "plate": "Q3S195J",
+        "group": "synthetic-Q3S195J",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/Q3S195J_defocus.png"
+      },
+      {
+        "plate": "645",
+        "group": "synthetic-645",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/645_clean.png"
+      },
+      {
+        "plate": "645",
+        "group": "synthetic-645",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/645_defocus.png"
+      },
+      {
+        "plate": "AUP",
+        "group": "synthetic-AUP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/AUP_clean.png"
+      },
+      {
+        "plate": "AUP",
+        "group": "synthetic-AUP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/AUP_defocus.png"
+      },
+      {
+        "plate": "ZY18NL4",
+        "group": "synthetic-ZY18NL4",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ZY18NL4_clean.png"
+      },
+      {
+        "plate": "ZY18NL4",
+        "group": "synthetic-ZY18NL4",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ZY18NL4_defocus.png"
+      },
+      {
+        "plate": "68U",
+        "group": "synthetic-68U",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/68U_clean.png"
+      },
+      {
+        "plate": "68U",
+        "group": "synthetic-68U",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/68U_defocus.png"
+      },
+      {
+        "plate": "XQBWEWP",
+        "group": "synthetic-XQBWEWP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XQBWEWP_clean.png"
+      },
+      {
+        "plate": "XQBWEWP",
+        "group": "synthetic-XQBWEWP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XQBWEWP_defocus.png"
+      },
+      {
+        "plate": "48OYY",
+        "group": "synthetic-48OYY",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/48OYY_clean.png"
+      },
+      {
+        "plate": "48OYY",
+        "group": "synthetic-48OYY",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/48OYY_defocus.png"
+      },
+      {
+        "plate": "7KYK",
+        "group": "synthetic-7KYK",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/7KYK_clean.png"
+      },
+      {
+        "plate": "7KYK",
+        "group": "synthetic-7KYK",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/7KYK_defocus.png"
+      },
+      {
+        "plate": "TS13MME",
+        "group": "synthetic-TS13MME",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/TS13MME_clean.png"
+      },
+      {
+        "plate": "TS13MME",
+        "group": "synthetic-TS13MME",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/TS13MME_defocus.png"
+      },
+      {
+        "plate": "FOH3HJ5",
+        "group": "synthetic-FOH3HJ5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/FOH3HJ5_clean.png"
+      },
+      {
+        "plate": "FOH3HJ5",
+        "group": "synthetic-FOH3HJ5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/FOH3HJ5_defocus.png"
+      },
+      {
+        "plate": "3UEA3",
+        "group": "synthetic-3UEA3",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/3UEA3_clean.png"
+      },
+      {
+        "plate": "3UEA3",
+        "group": "synthetic-3UEA3",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/3UEA3_defocus.png"
+      },
+      {
+        "plate": "1RDEZX",
+        "group": "synthetic-1RDEZX",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1RDEZX_clean.png"
+      },
+      {
+        "plate": "1RDEZX",
+        "group": "synthetic-1RDEZX",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1RDEZX_defocus.png"
+      },
+      {
+        "plate": "5A7",
+        "group": "synthetic-5A7",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/5A7_clean.png"
+      },
+      {
+        "plate": "5A7",
+        "group": "synthetic-5A7",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/5A7_defocus.png"
+      },
+      {
+        "plate": "9OF",
+        "group": "synthetic-9OF",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/9OF_clean.png"
+      },
+      {
+        "plate": "9OF",
+        "group": "synthetic-9OF",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/9OF_defocus.png"
+      },
+      {
+        "plate": "YGW5F",
+        "group": "synthetic-YGW5F",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/YGW5F_clean.png"
+      },
+      {
+        "plate": "YGW5F",
+        "group": "synthetic-YGW5F",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/YGW5F_defocus.png"
+      },
+      {
+        "plate": "7SDL52A",
+        "group": "synthetic-7SDL52A",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/7SDL52A_clean.png"
+      },
+      {
+        "plate": "7SDL52A",
+        "group": "synthetic-7SDL52A",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/7SDL52A_defocus.png"
+      },
+      {
+        "plate": "44CI4J",
+        "group": "synthetic-44CI4J",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/44CI4J_clean.png"
+      },
+      {
+        "plate": "44CI4J",
+        "group": "synthetic-44CI4J",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/44CI4J_defocus.png"
+      },
+      {
+        "plate": "06G",
+        "group": "synthetic-06G",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/06G_clean.png"
+      },
+      {
+        "plate": "06G",
+        "group": "synthetic-06G",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/06G_defocus.png"
+      },
+      {
+        "plate": "AQ8H3XQ",
+        "group": "synthetic-AQ8H3XQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/AQ8H3XQ_clean.png"
+      },
+      {
+        "plate": "AQ8H3XQ",
+        "group": "synthetic-AQ8H3XQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/AQ8H3XQ_defocus.png"
+      },
+      {
+        "plate": "IWGX6",
+        "group": "synthetic-IWGX6",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/IWGX6_clean.png"
+      },
+      {
+        "plate": "IWGX6",
+        "group": "synthetic-IWGX6",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/IWGX6_defocus.png"
+      },
+      {
+        "plate": "08XCC",
+        "group": "synthetic-08XCC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/08XCC_clean.png"
+      },
+      {
+        "plate": "08XCC",
+        "group": "synthetic-08XCC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/08XCC_defocus.png"
+      },
+      {
+        "plate": "V77G",
+        "group": "synthetic-V77G",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/V77G_clean.png"
+      },
+      {
+        "plate": "V77G",
+        "group": "synthetic-V77G",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/V77G_defocus.png"
+      },
+      {
+        "plate": "JG",
+        "group": "synthetic-JG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/JG_clean.png"
+      },
+      {
+        "plate": "JG",
+        "group": "synthetic-JG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/JG_defocus.png"
+      },
+      {
+        "plate": "LC50TUG",
+        "group": "synthetic-LC50TUG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LC50TUG_clean.png"
+      },
+      {
+        "plate": "LC50TUG",
+        "group": "synthetic-LC50TUG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LC50TUG_defocus.png"
+      },
+      {
+        "plate": "QM",
+        "group": "synthetic-QM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/QM_clean.png"
+      },
+      {
+        "plate": "QM",
+        "group": "synthetic-QM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/QM_defocus.png"
+      },
+      {
+        "plate": "TE70HGV",
+        "group": "synthetic-TE70HGV",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/TE70HGV_clean.png"
+      },
+      {
+        "plate": "TE70HGV",
+        "group": "synthetic-TE70HGV",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/TE70HGV_defocus.png"
+      },
+      {
+        "plate": "BRO",
+        "group": "synthetic-BRO",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/BRO_clean.png"
+      },
+      {
+        "plate": "BRO",
+        "group": "synthetic-BRO",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/BRO_defocus.png"
+      },
+      {
+        "plate": "B7X66",
+        "group": "synthetic-B7X66",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/B7X66_clean.png"
+      },
+      {
+        "plate": "B7X66",
+        "group": "synthetic-B7X66",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/B7X66_defocus.png"
+      },
+      {
+        "plate": "H5",
+        "group": "synthetic-H5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/H5_clean.png"
+      },
+      {
+        "plate": "H5",
+        "group": "synthetic-H5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/H5_defocus.png"
+      },
+      {
+        "plate": "VHS1K",
+        "group": "synthetic-VHS1K",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/VHS1K_clean.png"
+      },
+      {
+        "plate": "VHS1K",
+        "group": "synthetic-VHS1K",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/VHS1K_defocus.png"
+      },
+      {
+        "plate": "8SL",
+        "group": "synthetic-8SL",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8SL_clean.png"
+      },
+      {
+        "plate": "8SL",
+        "group": "synthetic-8SL",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8SL_defocus.png"
+      },
+      {
+        "plate": "KLF",
+        "group": "synthetic-KLF",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/KLF_clean.png"
+      },
+      {
+        "plate": "KLF",
+        "group": "synthetic-KLF",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/KLF_defocus.png"
+      },
+      {
+        "plate": "UBLQ",
+        "group": "synthetic-UBLQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/UBLQ_clean.png"
+      },
+      {
+        "plate": "UBLQ",
+        "group": "synthetic-UBLQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/UBLQ_defocus.png"
+      },
+      {
+        "plate": "97IYPQN",
+        "group": "synthetic-97IYPQN",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/97IYPQN_clean.png"
+      },
+      {
+        "plate": "97IYPQN",
+        "group": "synthetic-97IYPQN",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/97IYPQN_defocus.png"
+      },
+      {
+        "plate": "OHUOGP",
+        "group": "synthetic-OHUOGP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/OHUOGP_clean.png"
+      },
+      {
+        "plate": "OHUOGP",
+        "group": "synthetic-OHUOGP",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/OHUOGP_defocus.png"
+      },
+      {
+        "plate": "GIQHG",
+        "group": "synthetic-GIQHG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/GIQHG_clean.png"
+      },
+      {
+        "plate": "GIQHG",
+        "group": "synthetic-GIQHG",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/GIQHG_defocus.png"
+      },
+      {
+        "plate": "Q7WI57",
+        "group": "synthetic-Q7WI57",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/Q7WI57_clean.png"
+      },
+      {
+        "plate": "Q7WI57",
+        "group": "synthetic-Q7WI57",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/Q7WI57_defocus.png"
+      },
+      {
+        "plate": "83Z0P",
+        "group": "synthetic-83Z0P",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/83Z0P_clean.png"
+      },
+      {
+        "plate": "83Z0P",
+        "group": "synthetic-83Z0P",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/83Z0P_defocus.png"
+      },
+      {
+        "plate": "CCT",
+        "group": "synthetic-CCT",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/CCT_clean.png"
+      },
+      {
+        "plate": "CCT",
+        "group": "synthetic-CCT",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/CCT_defocus.png"
+      },
+      {
+        "plate": "QN69CEK",
+        "group": "synthetic-QN69CEK",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/QN69CEK_clean.png"
+      },
+      {
+        "plate": "QN69CEK",
+        "group": "synthetic-QN69CEK",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/QN69CEK_defocus.png"
+      },
+      {
+        "plate": "LL71SEQ",
+        "group": "synthetic-LL71SEQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LL71SEQ_clean.png"
+      },
+      {
+        "plate": "LL71SEQ",
+        "group": "synthetic-LL71SEQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LL71SEQ_defocus.png"
+      },
+      {
+        "plate": "H32R5",
+        "group": "synthetic-H32R5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/H32R5_clean.png"
+      },
+      {
+        "plate": "H32R5",
+        "group": "synthetic-H32R5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/H32R5_defocus.png"
+      },
+      {
+        "plate": "UPQZ",
+        "group": "synthetic-UPQZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/UPQZ_clean.png"
+      },
+      {
+        "plate": "UPQZ",
+        "group": "synthetic-UPQZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/UPQZ_defocus.png"
+      },
+      {
+        "plate": "VH0TB4",
+        "group": "synthetic-VH0TB4",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/VH0TB4_clean.png"
+      },
+      {
+        "plate": "VH0TB4",
+        "group": "synthetic-VH0TB4",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/VH0TB4_defocus.png"
+      },
+      {
+        "plate": "HT6T0U",
+        "group": "synthetic-HT6T0U",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/HT6T0U_clean.png"
+      },
+      {
+        "plate": "HT6T0U",
+        "group": "synthetic-HT6T0U",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/HT6T0U_defocus.png"
+      },
+      {
+        "plate": "IBGD",
+        "group": "synthetic-IBGD",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/IBGD_clean.png"
+      },
+      {
+        "plate": "IBGD",
+        "group": "synthetic-IBGD",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/IBGD_defocus.png"
+      },
+      {
+        "plate": "8VBHQLQ",
+        "group": "synthetic-8VBHQLQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8VBHQLQ_clean.png"
+      },
+      {
+        "plate": "8VBHQLQ",
+        "group": "synthetic-8VBHQLQ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8VBHQLQ_defocus.png"
+      },
+      {
+        "plate": "LZ24ZWH",
+        "group": "synthetic-LZ24ZWH",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LZ24ZWH_clean.png"
+      },
+      {
+        "plate": "LZ24ZWH",
+        "group": "synthetic-LZ24ZWH",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LZ24ZWH_defocus.png"
+      },
+      {
+        "plate": "D",
+        "group": "synthetic-D",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/D_clean.png"
+      },
+      {
+        "plate": "D",
+        "group": "synthetic-D",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/D_defocus.png"
+      },
+      {
+        "plate": "N8CW2",
+        "group": "synthetic-N8CW2",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/N8CW2_clean.png"
+      },
+      {
+        "plate": "N8CW2",
+        "group": "synthetic-N8CW2",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/N8CW2_defocus.png"
+      },
+      {
+        "plate": "RCAVIQK",
+        "group": "synthetic-RCAVIQK",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/RCAVIQK_clean.png"
+      },
+      {
+        "plate": "RCAVIQK",
+        "group": "synthetic-RCAVIQK",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/RCAVIQK_defocus.png"
+      },
+      {
+        "plate": "XXYC",
+        "group": "synthetic-XXYC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XXYC_clean.png"
+      },
+      {
+        "plate": "XXYC",
+        "group": "synthetic-XXYC",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/XXYC_defocus.png"
+      },
+      {
+        "plate": "Y03V",
+        "group": "synthetic-Y03V",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/Y03V_clean.png"
+      },
+      {
+        "plate": "Y03V",
+        "group": "synthetic-Y03V",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/Y03V_defocus.png"
+      },
+      {
+        "plate": "9AHEJ8C",
+        "group": "synthetic-9AHEJ8C",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/9AHEJ8C_clean.png"
+      },
+      {
+        "plate": "9AHEJ8C",
+        "group": "synthetic-9AHEJ8C",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/9AHEJ8C_defocus.png"
+      },
+      {
+        "plate": "2O90S",
+        "group": "synthetic-2O90S",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/2O90S_clean.png"
+      },
+      {
+        "plate": "2O90S",
+        "group": "synthetic-2O90S",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/2O90S_defocus.png"
+      },
+      {
+        "plate": "5F62",
+        "group": "synthetic-5F62",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/5F62_clean.png"
+      },
+      {
+        "plate": "5F62",
+        "group": "synthetic-5F62",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/5F62_defocus.png"
+      },
+      {
+        "plate": "51I",
+        "group": "synthetic-51I",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/51I_clean.png"
+      },
+      {
+        "plate": "51I",
+        "group": "synthetic-51I",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/51I_defocus.png"
+      },
+      {
+        "plate": "LIY8O69",
+        "group": "synthetic-LIY8O69",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LIY8O69_clean.png"
+      },
+      {
+        "plate": "LIY8O69",
+        "group": "synthetic-LIY8O69",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/LIY8O69_defocus.png"
+      },
+      {
+        "plate": "ZR2X7",
+        "group": "synthetic-ZR2X7",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ZR2X7_clean.png"
+      },
+      {
+        "plate": "ZR2X7",
+        "group": "synthetic-ZR2X7",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/ZR2X7_defocus.png"
+      },
+      {
+        "plate": "OK20IPD",
+        "group": "synthetic-OK20IPD",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/OK20IPD_clean.png"
+      },
+      {
+        "plate": "OK20IPD",
+        "group": "synthetic-OK20IPD",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/OK20IPD_defocus.png"
+      },
+      {
+        "plate": "2S2O",
+        "group": "synthetic-2S2O",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/2S2O_clean.png"
+      },
+      {
+        "plate": "2S2O",
+        "group": "synthetic-2S2O",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/2S2O_defocus.png"
+      },
+      {
+        "plate": "8IZ",
+        "group": "synthetic-8IZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8IZ_clean.png"
+      },
+      {
+        "plate": "8IZ",
+        "group": "synthetic-8IZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8IZ_defocus.png"
+      },
+      {
+        "plate": "89FTNWN",
+        "group": "synthetic-89FTNWN",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/89FTNWN_clean.png"
+      },
+      {
+        "plate": "89FTNWN",
+        "group": "synthetic-89FTNWN",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/89FTNWN_defocus.png"
+      },
+      {
+        "plate": "HFH",
+        "group": "synthetic-HFH",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/HFH_clean.png"
+      },
+      {
+        "plate": "HFH",
+        "group": "synthetic-HFH",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/HFH_defocus.png"
+      },
+      {
+        "plate": "MBF82",
+        "group": "synthetic-MBF82",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/MBF82_clean.png"
+      },
+      {
+        "plate": "MBF82",
+        "group": "synthetic-MBF82",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/MBF82_defocus.png"
+      },
+      {
+        "plate": "PF322F5",
+        "group": "synthetic-PF322F5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/PF322F5_clean.png"
+      },
+      {
+        "plate": "PF322F5",
+        "group": "synthetic-PF322F5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/PF322F5_defocus.png"
+      },
+      {
+        "plate": "NH29WBT",
+        "group": "synthetic-NH29WBT",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/NH29WBT_clean.png"
+      },
+      {
+        "plate": "NH29WBT",
+        "group": "synthetic-NH29WBT",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/NH29WBT_defocus.png"
+      },
+      {
+        "plate": "VQ52YRU",
+        "group": "synthetic-VQ52YRU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/VQ52YRU_clean.png"
+      },
+      {
+        "plate": "VQ52YRU",
+        "group": "synthetic-VQ52YRU",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/VQ52YRU_defocus.png"
+      },
+      {
+        "plate": "1UP8NY9",
+        "group": "synthetic-1UP8NY9",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1UP8NY9_clean.png"
+      },
+      {
+        "plate": "1UP8NY9",
+        "group": "synthetic-1UP8NY9",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/1UP8NY9_defocus.png"
+      },
+      {
+        "plate": "WU16HYM",
+        "group": "synthetic-WU16HYM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/WU16HYM_clean.png"
+      },
+      {
+        "plate": "WU16HYM",
+        "group": "synthetic-WU16HYM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/WU16HYM_defocus.png"
+      },
+      {
+        "plate": "E8ZN1N",
+        "group": "synthetic-E8ZN1N",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/E8ZN1N_clean.png"
+      },
+      {
+        "plate": "E8ZN1N",
+        "group": "synthetic-E8ZN1N",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/E8ZN1N_defocus.png"
+      },
+      {
+        "plate": "U5",
+        "group": "synthetic-U5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/U5_clean.png"
+      },
+      {
+        "plate": "U5",
+        "group": "synthetic-U5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/U5_defocus.png"
+      },
+      {
+        "plate": "EB",
+        "group": "synthetic-EB",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/EB_clean.png"
+      },
+      {
+        "plate": "EB",
+        "group": "synthetic-EB",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/EB_defocus.png"
+      },
+      {
+        "plate": "YUG5GNV",
+        "group": "synthetic-YUG5GNV",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/YUG5GNV_clean.png"
+      },
+      {
+        "plate": "YUG5GNV",
+        "group": "synthetic-YUG5GNV",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/YUG5GNV_defocus.png"
+      },
+      {
+        "plate": "SH8YZ",
+        "group": "synthetic-SH8YZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/SH8YZ_clean.png"
+      },
+      {
+        "plate": "SH8YZ",
+        "group": "synthetic-SH8YZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/SH8YZ_defocus.png"
+      },
+      {
+        "plate": "8A1",
+        "group": "synthetic-8A1",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8A1_clean.png"
+      },
+      {
+        "plate": "8A1",
+        "group": "synthetic-8A1",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/8A1_defocus.png"
+      },
+      {
+        "plate": "KTX1M5",
+        "group": "synthetic-KTX1M5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/KTX1M5_clean.png"
+      },
+      {
+        "plate": "KTX1M5",
+        "group": "synthetic-KTX1M5",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/KTX1M5_defocus.png"
+      },
+      {
+        "plate": "3JQIP98",
+        "group": "synthetic-3JQIP98",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/3JQIP98_clean.png"
+      },
+      {
+        "plate": "3JQIP98",
+        "group": "synthetic-3JQIP98",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/3JQIP98_defocus.png"
+      },
+      {
+        "plate": "X3FG6IZ",
+        "group": "synthetic-X3FG6IZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/X3FG6IZ_clean.png"
+      },
+      {
+        "plate": "X3FG6IZ",
+        "group": "synthetic-X3FG6IZ",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/X3FG6IZ_defocus.png"
+      },
+      {
+        "plate": "91YM",
+        "group": "synthetic-91YM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/91YM_clean.png"
+      },
+      {
+        "plate": "91YM",
+        "group": "synthetic-91YM",
+        "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/91YM_defocus.png"
+      }
+    ],
+    "objective": "positional NLL including trailing padding on original validation crops",
+    "checkpoint_sha256": "6dd8870ea1f33860832ec2a24f5237e66bc823ab9eef6e9d311a6d36395e8666",
+    "manifest_sha256": "2944b73810dcd55b52ade7f7853346d778c94dd4db997a8ce15bfdaccb20e8e0",
+    "whole_plate_confidence_calibrated": false
+  },
+  "positional_label_coverage": {
+    "training_class_count_by_position": [
+      36,
+      37,
+      37,
+      37,
+      37,
+      37,
+      37
+    ],
+    "test_plates_with_unseen_position_class": 0,
+    "test_unseen_class_count_by_position": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "test_sample_count": 300,
+    "includes_trailing_padding": true,
+    "interpretation": "Missing positive label exposure is not an accuracy or impossibility claim"
+  },
+  "model": {
+    "max_length": 7,
+    "use_mask": false,
+    "head_layout": "spatial",
+    "preprocess": "rgb-letterbox-192x64-imagenet-v1"
+  },
+  "dataset_provenance": {
+    "path": "/home/matt/ANPR-at-Home/runs/coverage-study/data/generator.json",
+    "sha256": "9aae3006ff72b3323aaf762e68c9a1273cd360f23a68fea4cbc808da371d77c4",
+    "declarations": {
+      "rendering_version": "plate-renderer-v2",
+      "seed": 42,
+      "identity_count": 1000,
+      "crop_count": 2000,
+      "formats": [
+        "A",
+        "AA",
+        "AAA",
+        "AAAA",
+        "AAAAA",
+        "AAAAAA",
+        "AAAAAAA",
+        "LLDDLLL"
+      ],
+      "fonts": [
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
+          "sha256": "3a3c502eeff669a231549e80df9f7c49de109bafe303170409e905d0b31a38fe",
+          "source": "font_file",
+          "initial_size": 43
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+          "sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+          "source": "font_file",
+          "initial_size": 43
+        },
+        {
+          "path": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+          "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+          "source": "font_file",
+          "initial_size": 43
+        }
+      ],
+      "font_usage": {
+        "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf": 324,
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf": 320,
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf": 356
+      },
+      "source_size": [
+        256,
+        80
+      ],
+      "variants": [
+        "clean",
+        "defocus"
+      ],
+      "format_sampling": "uniform format, then uniform supported character per position; unique identities",
+      "legacy_default_rendering": false,
+      "limitations": [
+        "Synthetic glyphs are not a substitute for real-camera training and held-out evaluation",
+        "Explicit fonts do not establish legal registration typography or jurisdiction coverage",
+        "Finite samples need a positional class-coverage audit before training"
+      ]
+    }
+  },
+  "decoder_constraints": "trailing padding only; no country-format or known-plate prior",
+  "limitations": [
+    "Positional ECE and NLL do not establish whole-plate confidence calibration",
+    "Synthetic degradation of a crop is not a substitute for naturally blurred real captures",
+    "Temperature fitted on original validation crops may not transfer to stronger corruption",
+    "Transferred validation calibration does not establish calibration on a different camera domain",
+    "Dataset provenance records source declarations, not independent verification of annotation accuracy",
+    "Latency includes image reading and preprocessing; decoder timing is reported separately"
+  ],
+  "results": {
+    "clean": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.03333333333333333,
+      "true_plate_recall_at_k": {
+        "5": 0.08666666666666667,
+        "10": 0.12333333333333334,
+        "50": 0.35
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5633514986376021,
+      "accuracy_position_including_padding": 0.689047619047619,
+      "nll_character_nonpadding": 1.6807477391986616,
+      "nll_position_including_padding": 1.2014162598253428,
+      "ece_character_nonpadding": 0.040144753073047906,
+      "ece_position_including_padding": 0.020715654158674057,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.9288424570889524,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 13.715419665483447,
+      "latency_preprocess_model_p95_ms": 15.83033800125122
+    },
+    "defocus:1": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.02666666666666667,
+      "true_plate_recall_at_k": {
+        "5": 0.08333333333333333,
+        "10": 0.15333333333333332,
+        "50": 0.3466666666666667
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5647138964577657,
+      "accuracy_position_including_padding": 0.690952380952381,
+      "nll_character_nonpadding": 1.668269109776163,
+      "nll_position_including_padding": 1.1930244783631425,
+      "ece_character_nonpadding": 0.05316774919140634,
+      "ece_position_including_padding": 0.03181226940418482,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.956880039322035,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.247669184211796,
+      "latency_preprocess_model_p95_ms": 16.03767299093306
+    },
+    "defocus:2": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.02,
+      "true_plate_recall_at_k": {
+        "5": 0.11,
+        "10": 0.14333333333333334,
+        "50": 0.30666666666666664
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5517711171662125,
+      "accuracy_position_including_padding": 0.6819047619047619,
+      "nll_character_nonpadding": 1.7134814575059392,
+      "nll_position_including_padding": 1.2219375702220292,
+      "ece_character_nonpadding": 0.0674692495996459,
+      "ece_position_including_padding": 0.04160330507981672,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.921593716212859,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.283544606684396,
+      "latency_preprocess_model_p95_ms": 15.91501900111325
+    },
+    "motion:1": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.02,
+      "true_plate_recall_at_k": {
+        "5": 0.08666666666666667,
+        "10": 0.14666666666666667,
+        "50": 0.33
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5647138964577657,
+      "accuracy_position_including_padding": 0.6904761904761905,
+      "nll_character_nonpadding": 1.6847327654290298,
+      "nll_position_including_padding": 1.204574067395344,
+      "ece_character_nonpadding": 0.05555777316791097,
+      "ece_position_including_padding": 0.03379404427847839,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.959775917212634,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.296334073587786,
+      "latency_preprocess_model_p95_ms": 15.611992013873532
+    },
+    "motion:2": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.016666666666666666,
+      "true_plate_recall_at_k": {
+        "5": 0.07333333333333333,
+        "10": 0.09,
+        "50": 0.22666666666666666
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.48569482288828336,
+      "accuracy_position_including_padding": 0.6357142857142857,
+      "nll_character_nonpadding": 2.0025114949234446,
+      "nll_position_including_padding": 1.4261801394272382,
+      "ece_character_nonpadding": 0.0573461350965615,
+      "ece_position_including_padding": 0.03589406614306189,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.953909211695039,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.23206971512021,
+      "latency_preprocess_model_p95_ms": 16.065233998233452
+    },
+    "downsample:1": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.02666666666666667,
+      "true_plate_recall_at_k": {
+        "5": 0.08,
+        "10": 0.15,
+        "50": 0.3433333333333333
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5599455040871935,
+      "accuracy_position_including_padding": 0.6871428571428572,
+      "nll_character_nonpadding": 1.6673000433746477,
+      "nll_position_including_padding": 1.1916975529860474,
+      "ece_character_nonpadding": 0.050803707863699914,
+      "ece_position_including_padding": 0.028634470008142815,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.9360166272575348,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 13.968622871034313,
+      "latency_preprocess_model_p95_ms": 15.607593988534063
+    },
+    "downsample:2": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.023333333333333334,
+      "true_plate_recall_at_k": {
+        "5": 0.09333333333333334,
+        "10": 0.14,
+        "50": 0.27666666666666667
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5313351498637602,
+      "accuracy_position_including_padding": 0.6685714285714286,
+      "nll_character_nonpadding": 1.8267785701825567,
+      "nll_position_including_padding": 1.3013412601453942,
+      "ece_character_nonpadding": 0.04026236289314613,
+      "ece_position_including_padding": 0.023029782981780204,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.9829768157408885,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.170721135839509,
+      "latency_preprocess_model_p95_ms": 15.895460994215682
+    },
+    "jpeg:1": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.03,
+      "true_plate_recall_at_k": {
+        "5": 0.09,
+        "10": 0.13333333333333333,
+        "50": 0.3466666666666667
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5701634877384196,
+      "accuracy_position_including_padding": 0.6938095238095238,
+      "nll_character_nonpadding": 1.6705703917963117,
+      "nll_position_including_padding": 1.1936103790675534,
+      "ece_character_nonpadding": 0.042292245371487056,
+      "ece_position_including_padding": 0.023372146078221766,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.9810599958485304,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.068150889167251,
+      "latency_preprocess_model_p95_ms": 15.802203008206561
+    },
+    "jpeg:2": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.03,
+      "true_plate_recall_at_k": {
+        "5": 0.08333333333333333,
+        "10": 0.13666666666666666,
+        "50": 0.33666666666666667
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5708446866485014,
+      "accuracy_position_including_padding": 0.6938095238095238,
+      "nll_character_nonpadding": 1.671549019606185,
+      "nll_position_including_padding": 1.1947955781390809,
+      "ece_character_nonpadding": 0.037608629855265155,
+      "ece_position_including_padding": 0.020318792713081558,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 3.0044124236640832,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.487406301001707,
+      "latency_preprocess_model_p95_ms": 16.740952007239684
+    },
+    "crop:1": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.05333333333333334,
+      "true_plate_recall_at_k": {
+        "5": 0.13333333333333333,
+        "10": 0.16666666666666666,
+        "50": 0.26
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5613079019073569,
+      "accuracy_position_including_padding": 0.6757142857142857,
+      "nll_character_nonpadding": 1.771534177079125,
+      "nll_position_including_padding": 1.3084648772964942,
+      "ece_character_nonpadding": 0.0392676805845998,
+      "ece_position_including_padding": 0.03027455928946481,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 2.969355951742424,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 13.973210916252961,
+      "latency_preprocess_model_p95_ms": 15.318792982725427
+    },
+    "crop:2": {
+      "sample_count": 300,
+      "accuracy_exact_plate": 0.03,
+      "true_plate_recall_at_k": {
+        "5": 0.07333333333333333,
+        "10": 0.09333333333333334,
+        "50": 0.16333333333333333
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.4891008174386921,
+      "accuracy_position_including_padding": 0.5857142857142857,
+      "nll_character_nonpadding": 2.1632999574708545,
+      "nll_position_including_padding": 1.737882452035041,
+      "ece_character_nonpadding": 0.039274002709915976,
+      "ece_position_including_padding": 0.040294260513050836,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 300
+      },
+      "latency_decode_mean_ms": 3.0400815339332135,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.100653700297698,
+      "latency_preprocess_model_p95_ms": 15.516870975261554
+    }
+  }
+}

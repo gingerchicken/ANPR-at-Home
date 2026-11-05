@@ -1,0 +1,352 @@
+{
+  "data_kind": "synthetic",
+  "checkpoint": "/home/matt/ANPR-at-Home/runs/synthetic-baseline/baseline.pt",
+  "checkpoint_sha256": "c1ef1ddc7cd3a0a38342a27b7e8c1298832e20eb96767658447b0b78221d883a",
+  "manifest": "/home/matt/ANPR-at-Home/runs/synthetic-baseline/data/manifest.csv",
+  "manifest_sha256": "f3626bf123b7ae1d78206bf4766db19b086bf5ae96a654e86af3a9d71ed9b4c0",
+  "seed": 42,
+  "split_counts": {
+    "train": 420,
+    "val": 90,
+    "test": 90
+  },
+  "evaluated_split": "test",
+  "temperature": 0.7955122224473677,
+  "calibration": {
+    "temperature": 0.7955122224473677,
+    "fit_split": "val",
+    "validation_sample_count": 90,
+    "objective": "positional NLL including trailing padding on original validation crops",
+    "checkpoint_sha256": "c1ef1ddc7cd3a0a38342a27b7e8c1298832e20eb96767658447b0b78221d883a",
+    "manifest_sha256": "f3626bf123b7ae1d78206bf4766db19b086bf5ae96a654e86af3a9d71ed9b4c0",
+    "whole_plate_confidence_calibrated": false
+  },
+  "decoder_constraints": "trailing padding only; no country-format or known-plate prior",
+  "limitations": [
+    "Positional ECE and NLL do not establish whole-plate confidence calibration",
+    "Synthetic degradation of a crop is not a substitute for naturally blurred real captures",
+    "Temperature fitted on original validation crops may not transfer to stronger corruption",
+    "Latency includes image reading and preprocessing; decoder timing is reported separately"
+  ],
+  "results": {
+    "clean": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.022222222222222223,
+        "50": 0.05555555555555555
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5063492063492063,
+      "accuracy_position_including_padding": 0.5063492063492063,
+      "nll_character_nonpadding": 1.774017426391462,
+      "nll_position_including_padding": 1.774017426391462,
+      "ece_character_nonpadding": 0.07235871731810661,
+      "ece_position_including_padding": 0.07235871731810661,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.0890445897562637,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 11.588374975124477,
+      "latency_preprocess_model_p95_ms": 14.125557005172595
+    },
+    "defocus:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.06666666666666667,
+        "50": 0.06666666666666667
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5111111111111111,
+      "accuracy_position_including_padding": 0.5111111111111111,
+      "nll_character_nonpadding": 1.7500809164061117,
+      "nll_position_including_padding": 1.7500809164061117,
+      "ece_character_nonpadding": 0.07359107474643746,
+      "ece_position_including_padding": 0.07359107474643746,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.0658091017459004,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 11.33999098933095,
+      "latency_preprocess_model_p95_ms": 12.381665001157671
+    },
+    "defocus:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.022222222222222223,
+        "10": 0.022222222222222223,
+        "50": 0.022222222222222223
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.4793650793650794,
+      "accuracy_position_including_padding": 0.4793650793650794,
+      "nll_character_nonpadding": 1.8657235466562536,
+      "nll_position_including_padding": 1.8657235466562536,
+      "ece_character_nonpadding": 0.0688539664276134,
+      "ece_position_including_padding": 0.0688539664276134,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 2.9980239772056745,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 11.386333188662926,
+      "latency_preprocess_model_p95_ms": 12.56224897224456
+    },
+    "motion:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.011111111111111112,
+        "50": 0.06666666666666667
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5047619047619047,
+      "accuracy_position_including_padding": 0.5047619047619047,
+      "nll_character_nonpadding": 1.778845851629745,
+      "nll_position_including_padding": 1.778845851629745,
+      "ece_character_nonpadding": 0.04863155689810156,
+      "ece_position_including_padding": 0.04863155689810156,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.0394834560057564,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 11.466366166132502,
+      "latency_preprocess_model_p95_ms": 12.300570000661537
+    },
+    "motion:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.022222222222222223
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.4142857142857143,
+      "accuracy_position_including_padding": 0.4142857142857143,
+      "nll_character_nonpadding": 2.053967738450387,
+      "nll_position_including_padding": 2.053967738450387,
+      "ece_character_nonpadding": 0.025508259730938683,
+      "ece_position_including_padding": 0.025508259730938683,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.1413590325327174,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 11.204851068194127,
+      "latency_preprocess_model_p95_ms": 12.06914900103584
+    },
+    "downsample:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.044444444444444446,
+        "50": 0.06666666666666667
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5142857142857142,
+      "accuracy_position_including_padding": 0.5142857142857142,
+      "nll_character_nonpadding": 1.771580838541072,
+      "nll_position_including_padding": 1.771580838541072,
+      "ece_character_nonpadding": 0.06401919378890107,
+      "ece_position_including_padding": 0.06401919378890107,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.038294112452099,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 10.911302046669233,
+      "latency_preprocess_model_p95_ms": 11.693093023495749
+    },
+    "downsample:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.022222222222222223,
+        "50": 0.022222222222222223
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.4253968253968254,
+      "accuracy_position_including_padding": 0.4253968253968254,
+      "nll_character_nonpadding": 2.0148201628322937,
+      "nll_position_including_padding": 2.0148201628322937,
+      "ece_character_nonpadding": 0.03240191543938765,
+      "ece_position_including_padding": 0.03240191543938765,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.040905533837051,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 10.84330788871739,
+      "latency_preprocess_model_p95_ms": 11.4441089972388
+    },
+    "jpeg:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.011111111111111112,
+        "10": 0.03333333333333333,
+        "50": 0.05555555555555555
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5047619047619047,
+      "accuracy_position_including_padding": 0.5047619047619047,
+      "nll_character_nonpadding": 1.7763720680423447,
+      "nll_position_including_padding": 1.7763720680423447,
+      "ece_character_nonpadding": 0.050984046246031325,
+      "ece_position_including_padding": 0.050984046246031325,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.100781565040557,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 10.91305030115311,
+      "latency_preprocess_model_p95_ms": 11.704184988047928
+    },
+    "jpeg:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.011111111111111112,
+        "10": 0.03333333333333333,
+        "50": 0.044444444444444446
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5063492063492063,
+      "accuracy_position_including_padding": 0.5063492063492063,
+      "nll_character_nonpadding": 1.7747504898471158,
+      "nll_position_including_padding": 1.7747504898471158,
+      "ece_character_nonpadding": 0.06210081766119214,
+      "ece_position_including_padding": 0.06210081766119214,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.1190212997090487,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 11.215877243214184,
+      "latency_preprocess_model_p95_ms": 12.257107999175787
+    },
+    "crop:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.022222222222222223
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.42063492063492064,
+      "accuracy_position_including_padding": 0.42063492063492064,
+      "nll_character_nonpadding": 1.9927597100692394,
+      "nll_position_including_padding": 1.9927597100692394,
+      "ece_character_nonpadding": 0.04468017156798352,
+      "ece_position_including_padding": 0.04468017156798352,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.1451056992712743,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 11.171597155043855,
+      "latency_preprocess_model_p95_ms": 12.185621017124504
+    },
+    "crop:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.011111111111111112
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.3412698412698413,
+      "accuracy_position_including_padding": 0.3412698412698413,
+      "nll_character_nonpadding": 2.328103747286621,
+      "nll_position_including_padding": 2.328103747286621,
+      "ece_character_nonpadding": 0.07969506602105493,
+      "ece_position_including_padding": 0.07969506602105493,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.0318205002307272,
+      "temperature": 0.7955122224473677,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 10.888022198923863,
+      "latency_preprocess_model_p95_ms": 11.428348982008174
+    }
+  }
+}

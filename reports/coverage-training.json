@@ -1,0 +1,95 @@
+{
+  "best_epoch": 9,
+  "best_val_loss": 1.1814124647776285,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.5413624817984446,
+      "val_loss": 2.290387512842814
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.84020580632346,
+      "val_loss": 1.8238236172993978
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.2976033333369663,
+      "val_loss": 1.5191252295176187
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.9143036968367441,
+      "val_loss": 1.3664308722813925
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6556351581641606,
+      "val_loss": 1.264487665494283
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4695494244779859,
+      "val_loss": 1.227826960881551
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.35478991406304494,
+      "val_loss": 1.2014810434977214
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2798098426205771,
+      "val_loss": 1.2049918921788534
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.2221099535908018,
+      "val_loss": 1.1814124647776285
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.18327981603997096,
+      "val_loss": 1.1861135943730672
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.15373378310884747,
+      "val_loss": 1.1847888485590616
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.12629103494541985,
+      "val_loss": 1.1949173998832703
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.10624484851956367,
+      "val_loss": 1.1981442658106487
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.09252361606274333,
+      "val_loss": 1.2539912621180216
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.07650516340775149,
+      "val_loss": 1.1926719458897908
+    }
+  ],
+  "checkpoint": "runs/coverage-study/spatial.pt",
+  "manifest_sha256": "2944b73810dcd55b52ade7f7853346d778c94dd4db997a8ce15bfdaccb20e8e0",
+  "seed": 42,
+  "split_counts": {
+    "train": 1400,
+    "val": 300,
+    "test": 300
+  },
+  "use_mask": false,
+  "head_layout": "spatial",
+  "pretrained": true,
+  "learning_rate": 0.0001,
+  "batch_size": 8,
+  "epochs": 15
+}

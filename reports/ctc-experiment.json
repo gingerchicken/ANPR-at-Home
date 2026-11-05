@@ -1,0 +1,259 @@
+{
+  "status": "prototype_improved_but_goal_incomplete_user_assets_required",
+  "protocol": {
+    "seed": 42,
+    "epochs_run": 15,
+    "ctc_selected_epoch": 15,
+    "selection": "lowest synthetic validation CTC loss",
+    "synthetic_split_counts": {
+      "train": 1400,
+      "val": 300,
+      "test": 300
+    },
+    "training_identities": 1000,
+    "fonts": 3,
+    "real_test_crops": 107,
+    "real_unique_labels": 103,
+    "real_capacity_exclusions": 1,
+    "beam_width": 100,
+    "search_exact": false,
+    "retained_sequence_scores_exact": true,
+    "source_validation_temperature": 0.8408964152537145,
+    "temperature_grid_boundary_selected": false,
+    "real_fitted_temperature": false,
+    "parameter_counts": {
+      "fixed": 11309379,
+      "ctc": 11843429
+    }
+  },
+  "real_metrics": {
+    "clean": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.24299065420560748,
+      "true_plate_recall_at_k": {
+        "5": 0.3644859813084112,
+        "10": 0.45794392523364486,
+        "50": 0.5794392523364486
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "character_error_rate": 0.23790322580645162,
+      "character_edit_count": 177,
+      "target_character_count": 744,
+      "nll_true_plate_ctc": 9.120060574199917,
+      "nll_true_plate_ctc_per_character": 1.3116216148378914,
+      "ece_top1_sequence_score": 0.18372468951617862,
+      "ece_bins": 10,
+      "confidence_kind": "exact_ctc_sequence_likelihood_not_calibrated_correctness",
+      "whole_plate_confidence_calibrated": false,
+      "status_counts": {
+        "uncertain": 107
+      },
+      "temperature": 0.8408964152537145,
+      "beam_width": 100,
+      "beam_search_exact": false,
+      "retained_candidate_scores_exact_ctc": true,
+      "latency_decode_mean_ms": 88.31691127879736,
+      "latency_preprocess_model_mean_ms": 15.740992597665498,
+      "latency_preprocess_model_p95_ms": 17.820183013100177
+    },
+    "defocus:1": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.08411214953271028,
+      "true_plate_recall_at_k": {
+        "5": 0.19626168224299065,
+        "10": 0.2336448598130841,
+        "50": 0.35514018691588783
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "character_error_rate": 0.47043010752688175,
+      "character_edit_count": 350,
+      "target_character_count": 744,
+      "nll_true_plate_ctc": 20.80559623009969,
+      "nll_true_plate_ctc_per_character": 2.992202683629929,
+      "ece_top1_sequence_score": 0.10042555940501038,
+      "ece_bins": 10,
+      "confidence_kind": "exact_ctc_sequence_likelihood_not_calibrated_correctness",
+      "whole_plate_confidence_calibrated": false,
+      "status_counts": {
+        "uncertain": 94,
+        "unreadable": 13
+      },
+      "temperature": 0.8408964152537145,
+      "beam_width": 100,
+      "beam_search_exact": false,
+      "retained_candidate_scores_exact_ctc": true,
+      "latency_decode_mean_ms": 91.81767714968186,
+      "latency_preprocess_model_mean_ms": 15.42720293313935,
+      "latency_preprocess_model_p95_ms": 18.556826980784535
+    },
+    "defocus:2": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.009345794392523364,
+        "10": 0.009345794392523364,
+        "50": 0.009345794392523364
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "character_error_rate": 0.9610215053763441,
+      "character_edit_count": 715,
+      "target_character_count": 744,
+      "nll_true_plate_ctc": 82.65330371421521,
+      "nll_true_plate_ctc_per_character": 11.886967066426113,
+      "ece_top1_sequence_score": 0.03195823241244272,
+      "ece_bins": 10,
+      "confidence_kind": "exact_ctc_sequence_likelihood_not_calibrated_correctness",
+      "whole_plate_confidence_calibrated": false,
+      "status_counts": {
+        "unreadable": 101,
+        "uncertain": 6
+      },
+      "temperature": 0.8408964152537145,
+      "beam_width": 100,
+      "beam_search_exact": false,
+      "retained_candidate_scores_exact_ctc": true,
+      "latency_decode_mean_ms": 89.39985261721945,
+      "latency_preprocess_model_mean_ms": 14.986325269695545,
+      "latency_preprocess_model_p95_ms": 17.7613609994296
+    },
+    "motion:1": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.009345794392523364,
+      "true_plate_recall_at_k": {
+        "5": 0.037383177570093455,
+        "10": 0.04672897196261682,
+        "50": 0.09345794392523364
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "character_error_rate": 0.6666666666666666,
+      "character_edit_count": 496,
+      "target_character_count": 744,
+      "nll_true_plate_ctc": 27.420602953894694,
+      "nll_true_plate_ctc_per_character": 3.943554457078941,
+      "ece_top1_sequence_score": 0.10405554434274894,
+      "ece_bins": 10,
+      "confidence_kind": "exact_ctc_sequence_likelihood_not_calibrated_correctness",
+      "whole_plate_confidence_calibrated": false,
+      "status_counts": {
+        "uncertain": 99,
+        "unreadable": 8
+      },
+      "temperature": 0.8408964152537145,
+      "beam_width": 100,
+      "beam_search_exact": false,
+      "retained_candidate_scores_exact_ctc": true,
+      "latency_decode_mean_ms": 93.01805083077427,
+      "latency_preprocess_model_mean_ms": 15.805466176461097,
+      "latency_preprocess_model_p95_ms": 18.886904988903552
+    },
+    "motion:2": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.009345794392523364,
+        "10": 0.009345794392523364,
+        "50": 0.009345794392523364
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "character_error_rate": 0.9650537634408602,
+      "character_edit_count": 718,
+      "target_character_count": 744,
+      "nll_true_plate_ctc": 69.99636676975034,
+      "nll_true_plate_ctc_per_character": 10.066681780058179,
+      "ece_top1_sequence_score": 0.14348791293238022,
+      "ece_bins": 10,
+      "confidence_kind": "exact_ctc_sequence_likelihood_not_calibrated_correctness",
+      "whole_plate_confidence_calibrated": false,
+      "status_counts": {
+        "unreadable": 81,
+        "uncertain": 26
+      },
+      "temperature": 0.8408964152537145,
+      "beam_width": 100,
+      "beam_search_exact": false,
+      "retained_candidate_scores_exact_ctc": true,
+      "latency_decode_mean_ms": 92.5686890090746,
+      "latency_preprocess_model_mean_ms": 15.04126204575943,
+      "latency_preprocess_model_p95_ms": 16.912494000280276
+    }
+  },
+  "evidence": [
+    "CTC uses the same training and real-test manifests as the broader positional baseline",
+    "Exact plate scores and ordered-output marginals match independently enumerated short CTC paths",
+    "Direct crop inference and controlled detector-crop routing agree using the actual trained model",
+    "Private development/calibration record lists are not exported in crop predictions"
+  ],
+  "limitations": [
+    "Exploratory public benchmark has informed development and is not an untouched final holdout",
+    "Real crops use annotation boxes, not the user previously trained YOLO detections",
+    "No real camera images train this model",
+    "One seed; CTC adds recurrent capacity and changes the loss, so this is a complete-architecture comparison",
+    "Strong blur and low native resolution still have very low true-plate recall",
+    "Character marginals and CTC likelihood are model probabilities, not certified correctness",
+    "Pure Python beam decoding is substantially slower than fixed-head ranking",
+    "One eight-character plate is explicitly excluded; source labels are upstream annotations",
+    "GPU behavior remains unverified; it is not required for the measured CPU prototype"
+  ],
+  "remaining_required_inputs": [
+    "Exported previously trained YOLO weights or authenticated Roboflow access",
+    "Labelled original camera plate crops with exact registration text and capture/video groups",
+    "An independent real blurred-plate holdout with detector errors retained"
+  ],
+  "technical_debt": [
+    "Shared train/val orchestration remains duplicated, with actionable TODO(refactor) in anpr/ctc_train.py"
+  ],
+  "reports": [
+    "ctc-synthetic.json",
+    "ctc-real.json",
+    "ctc-training.json",
+    "ctc-character-example.json"
+  ],
+  "chart": "ctc-real-recall.png",
+  "validation": {
+    "pytest_passed": 165,
+    "unittest_subtests_passed": 53,
+    "ruff": "passed",
+    "formatter": "passed",
+    "pip_check": "passed",
+    "compileall": "passed",
+    "whitespace_and_ascii_dash": "passed",
+    "actual_trained_model_standalone_cli": "passed",
+    "actual_trained_model_direct_vs_controlled_adapter": "identical candidates and ordered marginals",
+    "exact_ordered_marginals": "exhaustive37^3 paths and independent reference case",
+    "independent_ctc_decoder_review": "no concrete defects found"
+  },
+  "remaining_asset_audit": {
+    "workspace_weights": "only locally generated recognizer experiment checkpoints; no prior YOLO export",
+    "repository_public_releases": "empty release list",
+    "roboflow_api_key_available": false,
+    "project_dotenv_present": false,
+    "prior_private_credential_request": "timed out without credentials"
+  },
+  "character_table": "ctc-character-alternatives.png",
+  "degradation_protocol": {
+    "original_condition": "Source crop without additional evaluation corruption; this does not mean a readable video reference frame",
+    "corrupted_conditions": "Synthetic defocus, motion, downsampling, JPEG and crop transformations applied to source images",
+    "natural_blur_video_evaluation_completed": false,
+    "reference_frame_track_labelling_completed": false
+  }
+}

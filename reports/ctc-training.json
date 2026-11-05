@@ -1,0 +1,97 @@
+{
+  "best_epoch": 15,
+  "best_val_loss": 0.01643508831659953,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 5.5489564091818675,
+      "val_loss": 3.882395067214966
+    },
+    {
+      "epoch": 2,
+      "train_loss": 3.4428612014225553,
+      "val_loss": 2.498063643773397
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.5538866324084146,
+      "val_loss": 0.6237543296813964
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4047646108695439,
+      "val_loss": 0.18715643723805744
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.16257930329867773,
+      "val_loss": 0.10082996894915898
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.09512580986533846,
+      "val_loss": 0.06560532207290332
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.06703473357217653,
+      "val_loss": 0.053919182469447456
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.05006480410695076,
+      "val_loss": 0.08206079974770546
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.0374986682087183,
+      "val_loss": 0.036115448127190274
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0310416010341474,
+      "val_loss": 0.027876837328076363
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.05614085972309112,
+      "val_loss": 0.03889312880734603
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.03905607533774206,
+      "val_loss": 0.03081927741567294
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.048624923559171813,
+      "val_loss": 0.07069897299011549
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.030651504567691258,
+      "val_loss": 0.020272258867820105
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.016329710808183465,
+      "val_loss": 0.01643508831659953
+    }
+  ],
+  "checkpoint": "runs/ctc-comparison/ctc.pt",
+  "manifest_sha256": "2944b73810dcd55b52ade7f7853346d778c94dd4db997a8ce15bfdaccb20e8e0",
+  "seed": 42,
+  "split_counts": {
+    "train": 1400,
+    "val": 300,
+    "test": 300
+  },
+  "model_kind": "ctc",
+  "head_layout": "ctc",
+  "use_mask": false,
+  "pretrained": true,
+  "learning_rate": 0.0001,
+  "batch_size": 8,
+  "epochs": 15,
+  "objective": "CTC mean NLL divided by target length per sample"
+}

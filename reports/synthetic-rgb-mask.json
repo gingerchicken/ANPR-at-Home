@@ -1,0 +1,352 @@
+{
+  "data_kind": "synthetic",
+  "checkpoint": "/home/matt/ANPR-at-Home/runs/synthetic-baseline/masked.pt",
+  "checkpoint_sha256": "d8cdea8504875ddd93fb3da0bfea27a65764773a7cea117e78280264ae5af75f",
+  "manifest": "/home/matt/ANPR-at-Home/runs/synthetic-baseline/data/manifest.csv",
+  "manifest_sha256": "f3626bf123b7ae1d78206bf4766db19b086bf5ae96a654e86af3a9d71ed9b4c0",
+  "seed": 42,
+  "split_counts": {
+    "train": 420,
+    "val": 90,
+    "test": 90
+  },
+  "evaluated_split": "test",
+  "temperature": 0.7110407758496411,
+  "calibration": {
+    "temperature": 0.7110407758496411,
+    "fit_split": "val",
+    "validation_sample_count": 90,
+    "objective": "positional NLL including trailing padding on original validation crops",
+    "checkpoint_sha256": "d8cdea8504875ddd93fb3da0bfea27a65764773a7cea117e78280264ae5af75f",
+    "manifest_sha256": "f3626bf123b7ae1d78206bf4766db19b086bf5ae96a654e86af3a9d71ed9b4c0",
+    "whole_plate_confidence_calibrated": false
+  },
+  "decoder_constraints": "trailing padding only; no country-format or known-plate prior",
+  "limitations": [
+    "Positional ECE and NLL do not establish whole-plate confidence calibration",
+    "Synthetic degradation of a crop is not a substitute for naturally blurred real captures",
+    "Temperature fitted on original validation crops may not transfer to stronger corruption",
+    "Latency includes image reading and preprocessing; decoder timing is reported separately"
+  ],
+  "results": {
+    "clean": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.011111111111111112,
+      "true_plate_recall_at_k": {
+        "5": 0.011111111111111112,
+        "10": 0.044444444444444446,
+        "50": 0.13333333333333333
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5523809523809524,
+      "accuracy_position_including_padding": 0.5523809523809524,
+      "nll_character_nonpadding": 1.6829112514394304,
+      "nll_position_including_padding": 1.6829112514394304,
+      "ece_character_nonpadding": 0.041614162344390526,
+      "ece_position_including_padding": 0.041614162344390526,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 2.9664953019366496,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.177149390646568,
+      "latency_preprocess_model_p95_ms": 15.297249017748982
+    },
+    "defocus:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.022222222222222223,
+      "true_plate_recall_at_k": {
+        "5": 0.044444444444444446,
+        "10": 0.044444444444444446,
+        "50": 0.08888888888888889
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5476190476190477,
+      "accuracy_position_including_padding": 0.5476190476190477,
+      "nll_character_nonpadding": 1.6644807681429632,
+      "nll_position_including_padding": 1.6644807681429632,
+      "ece_character_nonpadding": 0.052882442554624445,
+      "ece_position_including_padding": 0.052882442554624445,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.0315299777107105,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.678903401040266,
+      "latency_preprocess_model_p95_ms": 15.310874994611368
+    },
+    "defocus:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.022222222222222223,
+      "true_plate_recall_at_k": {
+        "5": 0.022222222222222223,
+        "10": 0.044444444444444446,
+        "50": 0.1
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5238095238095238,
+      "accuracy_position_including_padding": 0.5238095238095238,
+      "nll_character_nonpadding": 1.76367677771412,
+      "nll_position_including_padding": 1.76367677771412,
+      "ece_character_nonpadding": 0.041132205735374266,
+      "ece_position_including_padding": 0.041132205735374266,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.0009356873860167,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.889815723614042,
+      "latency_preprocess_model_p95_ms": 16.155504010384902
+    },
+    "motion:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.011111111111111112,
+      "true_plate_recall_at_k": {
+        "5": 0.022222222222222223,
+        "10": 0.044444444444444446,
+        "50": 0.1
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5396825396825397,
+      "accuracy_position_including_padding": 0.5396825396825397,
+      "nll_character_nonpadding": 1.6959610439181987,
+      "nll_position_including_padding": 1.6959610439181987,
+      "ece_character_nonpadding": 0.049460015094376635,
+      "ece_position_including_padding": 0.049460015094376635,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.0187877334861293,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 15.14137033243767,
+      "latency_preprocess_model_p95_ms": 16.206661006435752
+    },
+    "motion:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.022222222222222223
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.44761904761904764,
+      "accuracy_position_including_padding": 0.44761904761904764,
+      "nll_character_nonpadding": 2.090624882041957,
+      "nll_position_including_padding": 2.090624882041957,
+      "ece_character_nonpadding": 0.0865996740178082,
+      "ece_position_including_padding": 0.0865996740178082,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.0105065774276025,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.46158665478126,
+      "latency_preprocess_model_p95_ms": 14.920160989277065
+    },
+    "downsample:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.022222222222222223,
+      "true_plate_recall_at_k": {
+        "5": 0.044444444444444446,
+        "10": 0.044444444444444446,
+        "50": 0.1111111111111111
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5476190476190477,
+      "accuracy_position_including_padding": 0.5476190476190477,
+      "nll_character_nonpadding": 1.6703999694324336,
+      "nll_position_including_padding": 1.6703999694324336,
+      "ece_character_nonpadding": 0.07165410938149958,
+      "ece_position_including_padding": 0.07165410938149958,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.009072622646474,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.43998139972488,
+      "latency_preprocess_model_p95_ms": 15.73964100680314
+    },
+    "downsample:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.022222222222222223,
+        "50": 0.022222222222222223
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.4365079365079365,
+      "accuracy_position_including_padding": 0.4365079365079365,
+      "nll_character_nonpadding": 1.9968405395459965,
+      "nll_position_including_padding": 1.9968405395459965,
+      "ece_character_nonpadding": 0.06480226633553769,
+      "ece_position_including_padding": 0.06480226633553769,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.01239803342873,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 15.229631519954031,
+      "latency_preprocess_model_p95_ms": 17.08784999209456
+    },
+    "jpeg:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.011111111111111112,
+      "true_plate_recall_at_k": {
+        "5": 0.022222222222222223,
+        "10": 0.044444444444444446,
+        "50": 0.1111111111111111
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5571428571428572,
+      "accuracy_position_including_padding": 0.5571428571428572,
+      "nll_character_nonpadding": 1.6846399941198544,
+      "nll_position_including_padding": 1.6846399941198544,
+      "ece_character_nonpadding": 0.05377964815146495,
+      "ece_position_including_padding": 0.05377964815146495,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.047445555178759,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.504540532814442,
+      "latency_preprocess_model_p95_ms": 15.576260018860921
+    },
+    "jpeg:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.011111111111111112,
+      "true_plate_recall_at_k": {
+        "5": 0.044444444444444446,
+        "10": 0.044444444444444446,
+        "50": 0.1111111111111111
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.5555555555555556,
+      "accuracy_position_including_padding": 0.5555555555555556,
+      "nll_character_nonpadding": 1.700716641217199,
+      "nll_position_including_padding": 1.700716641217199,
+      "ece_character_nonpadding": 0.060201696202898385,
+      "ece_position_including_padding": 0.060201696202898385,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 2.999913224226071,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.526008877631588,
+      "latency_preprocess_model_p95_ms": 15.397459996165708
+    },
+    "crop:1": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.011111111111111112,
+        "50": 0.06666666666666667
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.4714285714285714,
+      "accuracy_position_including_padding": 0.4714285714285714,
+      "nll_character_nonpadding": 1.8503290827870924,
+      "nll_position_including_padding": 1.8503290827870924,
+      "ece_character_nonpadding": 0.028414882832356603,
+      "ece_position_including_padding": 0.028414882832356603,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 2.9816601218448744,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.776753298550224,
+      "latency_preprocess_model_p95_ms": 16.12683999701403
+    },
+    "crop:2": {
+      "sample_count": 90,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.0
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.33650793650793653,
+      "accuracy_position_including_padding": 0.33650793650793653,
+      "nll_character_nonpadding": 2.2101047163574883,
+      "nll_position_including_padding": 2.2101047163574883,
+      "ece_character_nonpadding": 0.0798898001874004,
+      "ece_position_including_padding": 0.0798898001874004,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 90
+      },
+      "latency_decode_mean_ms": 3.018128199295865,
+      "temperature": 0.7110407758496411,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.85681203549676,
+      "latency_preprocess_model_p95_ms": 16.180942999199033
+    }
+  }
+}

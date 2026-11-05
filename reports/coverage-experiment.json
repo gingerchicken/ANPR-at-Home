@@ -1,0 +1,253 @@
+{
+  "status": "incomplete_real_recall_too_low_and_prior_yolo_assets_missing",
+  "protocol": {
+    "seed": 42,
+    "training_identities": 1000,
+    "epochs_run": 15,
+    "selected_epoch": 9,
+    "selection": "lowest synthetic validation loss",
+    "model": "spatial ResNet18 without mask",
+    "formats": [
+      "A",
+      "AA",
+      "AAA",
+      "AAAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAAAAAA",
+      "LLDDLLL"
+    ],
+    "fonts": 3,
+    "real_crops": 107,
+    "real_unique_labels": 103,
+    "real_evaluation_role": "exploratory cross-domain regression, not untouched final test",
+    "split_counts": {
+      "train": 1400,
+      "val": 300,
+      "test": 300
+    }
+  },
+  "positional_label_coverage": {
+    "training_class_count_by_position": [
+      36,
+      37,
+      37,
+      37,
+      37,
+      37,
+      37
+    ],
+    "test_plates_with_unseen_position_class": 0,
+    "test_unseen_class_count_by_position": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "test_sample_count": 107,
+    "includes_trailing_padding": true,
+    "interpretation": "Missing positive label exposure is not an accuracy or impossibility claim"
+  },
+  "real_metrics": {
+    "clean": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.009345794392523364
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.3333333333333333,
+      "accuracy_position_including_padding": 0.3324432576769025,
+      "nll_character_nonpadding": 2.533056932566342,
+      "nll_position_including_padding": 2.537330991002515,
+      "ece_character_nonpadding": 0.10503141453527998,
+      "ece_position_including_padding": 0.10588592277073912,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 107
+      },
+      "latency_decode_mean_ms": 2.9801929997341166,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 13.609445971277951,
+      "latency_preprocess_model_p95_ms": 14.899335015797988
+    },
+    "defocus:1": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.009345794392523364
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.18010752688172044,
+      "accuracy_position_including_padding": 0.18157543391188252,
+      "nll_character_nonpadding": 3.300091749223382,
+      "nll_position_including_padding": 3.293119673540793,
+      "ece_character_nonpadding": 0.11691985818883881,
+      "ece_position_including_padding": 0.11672736448926915,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 102,
+        "unreadable": 5
+      },
+      "latency_decode_mean_ms": 3.0584829341550575,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 13.41021287627083,
+      "latency_preprocess_model_p95_ms": 14.559326984453946
+    },
+    "defocus:2": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.0
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.01881720430107527,
+      "accuracy_position_including_padding": 0.025367156208277702,
+      "nll_character_nonpadding": 5.311794787514803,
+      "nll_position_including_padding": 5.2784778247813255,
+      "ece_character_nonpadding": 0.49323059269834424,
+      "ece_position_including_padding": 0.4893110040229378,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 94,
+        "unreadable": 13
+      },
+      "latency_decode_mean_ms": 2.9801294029685974,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 14.008288180605708,
+      "latency_preprocess_model_p95_ms": 15.571585012366995
+    },
+    "motion:1": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.0
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.12096774193548387,
+      "accuracy_position_including_padding": 0.12283044058744993,
+      "nll_character_nonpadding": 3.5781106002090937,
+      "nll_position_including_padding": 3.567368495178054,
+      "ece_character_nonpadding": 0.16694571361951763,
+      "ece_position_including_padding": 0.16651858669427572,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 99,
+        "unreadable": 8
+      },
+      "latency_decode_mean_ms": 3.0353063838251773,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 13.495613839346742,
+      "latency_preprocess_model_p95_ms": 14.885398995829746
+    },
+    "motion:2": {
+      "sample_count": 107,
+      "accuracy_exact_plate": 0.0,
+      "true_plate_recall_at_k": {
+        "5": 0.0,
+        "10": 0.0,
+        "50": 0.0
+      },
+      "mean_candidate_count_at_k": {
+        "5": 5.0,
+        "10": 10.0,
+        "50": 50.0
+      },
+      "accuracy_character_nonpadding": 0.01881720430107527,
+      "accuracy_position_including_padding": 0.02403204272363151,
+      "nll_character_nonpadding": 4.538145747050356,
+      "nll_position_including_padding": 4.512561167519456,
+      "ece_character_nonpadding": 0.34199626912336856,
+      "ece_position_including_padding": 0.3388277322931875,
+      "ece_bins": 10,
+      "status_counts": {
+        "uncertain": 50,
+        "unreadable": 57
+      },
+      "latency_decode_mean_ms": 3.011463867950854,
+      "temperature": 1.1393675814867592,
+      "whole_plate_confidence_calibrated": false,
+      "latency_preprocess_model_mean_ms": 13.845899851696792,
+      "latency_preprocess_model_p95_ms": 15.916061005555093
+    }
+  },
+  "conclusions": [
+    "All positive positional-class coverage gaps in this public subset are closed",
+    "Real complete-plate recall is still unusable despite broader synthetic labels and fonts",
+    "One correct plate among107 original crops at candidate budget50 does not establish useful search-space reduction",
+    "No evidence to make the optional U-Net the default after the matched spatial trial"
+  ],
+  "remaining_work": [
+    "Labelled real plate training/validation data from the user camera domain",
+    "Evaluate variable-length alignment and a sequence recognizer on the same broad synthetic protocol",
+    "Actual execution using the user previously trained YOLO weights",
+    "Independent real blurred-plate holdout including detector crop errors and abstention evaluation"
+  ],
+  "validation": {
+    "calibration_transfer_leak_regression": "actual CLI repro blocked after fitted-record checks",
+    "output_input_alias_regressions": "file, symlink and hardlink ownership protected",
+    "downloaded_source_artifacts_hash_verified": 217,
+    "exact_source_pixel_crops_verified": 107,
+    "pytest_passed": 107,
+    "unittest_subtests_passed": 53,
+    "ruff": "passed",
+    "formatter": "passed",
+    "pip_check": "passed",
+    "compileall": "passed",
+    "standalone_cli_and_controlled_detector_adapter_agree": true,
+    "split_records_kept_out_of_public_inference": true,
+    "ascii_dash_and_whitespace": "passed"
+  },
+  "limitations": [
+    "Broader data changes font, label distribution and sample count together; it is not a one-factor ablation",
+    "The public benchmark has informed diagnostics and is exploratory",
+    "No real images train the weights or fit temperature",
+    "Single seed, synthetic typography, variable-length fixed heads and no perspective rectification",
+    "One eight-character label excluded explicitly by current capacity",
+    "Source benchmark labels are upstream annotations, not independently verified transcriptions"
+  ],
+  "reports": [
+    "coverage-synthetic.json",
+    "coverage-real.json",
+    "coverage-training.json",
+    "coverage-generator.json"
+  ],
+  "chart": "coverage-real-recall.png",
+  "degradation_protocol": {
+    "original_condition": "Source crop without additional evaluation corruption; this does not mean a readable video reference frame",
+    "corrupted_conditions": "Synthetic defocus, motion, downsampling, JPEG and crop transformations applied to source images",
+    "natural_blur_video_evaluation_completed": false,
+    "reference_frame_track_labelling_completed": false
+  }
+}

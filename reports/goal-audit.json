@@ -1,0 +1,115 @@
+{
+  "objective_preserved": true,
+  "completion_proven": false,
+  "requirements": [
+    {
+      "requirement": "Retain and measure the original ResNet18 positional baseline",
+      "state": "verified",
+      "evidence": [
+        "model.py version-one compatibility tests",
+        "reports/coverage-experiment.json",
+        "reports/spatial-experiment.json"
+      ]
+    },
+    {
+      "requirement": "Justify a sequence model using measured plate data",
+      "state": "verified_for_exploratory_prototype",
+      "evidence": [
+        "reports/ctc-experiment.json",
+        "same training/test manifest hashes",
+        "public real original top50 recall62of107 and milddefocus38of107"
+      ]
+    },
+    {
+      "requirement": "Ordered character distributions and bounded ranked full plates",
+      "state": "verified",
+      "evidence": [
+        "ctc_position_marginals exhaustive37^3 tests",
+        "CTC exact alignment sums versus Torch loss",
+        "explicit beam approximation and separate lookup constraints"
+      ]
+    },
+    {
+      "requirement": "Standalone image reading and reusable detector-crop adapter",
+      "state": "code_verified_actual_detector_pending",
+      "evidence": [
+        "actual trained CTC CLI execution",
+        "direct crop equals controlled Results-shaped adapter",
+        "165 passing tests"
+      ]
+    },
+    {
+      "requirement": "Use the previously trained YOLO model on real detector crops",
+      "state": "blocked",
+      "missing": "User YOLO weights or authenticated model export; controlled objects and annotation boxes cannot prove this"
+    },
+    {
+      "requirement": "Leakage-resistant datasets and validation-only calibration",
+      "state": "verified_for_available_data",
+      "evidence": [
+        "plate/source connected-component splits",
+        "actual fitted validation membership checks",
+        "checkpoint/model-kind/temperature provenance guards"
+      ]
+    },
+    {
+      "requirement": "Real independent blurred-camera evaluation with retained true-plate recall",
+      "state": "blocked_and_incomplete",
+      "missing": "Independent labelled camera captures and detector outputs; public benchmark is exploratory and strong-blur recall remains low"
+    },
+    {
+      "requirement": "Exact plate accuracy, recall budgets5/10/50, candidate size, latency and calibration by severity",
+      "state": "verified_for_public_and_synthetic_studies",
+      "evidence": [
+        "reports/ctc-synthetic.json",
+        "reports/ctc-real.json"
+      ]
+    },
+    {
+      "requirement": "Uncertain/unreadable outcomes",
+      "state": "heuristic_implemented_not_certified_rejection_policy",
+      "evidence": [
+        "uniform/blank/weak-frame tests",
+        "unreadable counts retained in all report denominators"
+      ],
+      "remaining": "Independent detector errors and unreadable camera examples are needed to evaluate the policy"
+    },
+    {
+      "requirement": "Reproducible training/evaluation/inference docs and tests",
+      "state": "verified_for_CPU_prototype",
+      "evidence": [
+        "README.md CLI commands executed",
+        "source pin and hashes",
+        "165 tests plus lint/dependency/compile checks"
+      ],
+      "limitation": "GPU not verified and not required for the measured CPU results"
+    },
+    {
+      "requirement": "Evaluate optional U-Net normalization idea",
+      "state": "verified_exploratory_comparison",
+      "evidence": [
+        "reports/spatial-experiment.json",
+        "matched shared initialization and RGB retained"
+      ],
+      "limitation": "No consistent gain in the tested spatial-head comparison; not made default"
+    }
+  ],
+  "blocked_audit": {
+    "same_condition_persisted_across_at_least_three_goal_turns": true,
+    "condition": "Prior YOLO export/Roboflow credential and independent labelled camera assets remain unavailable",
+    "earlier_observations": [
+      "Initial prototype turn: API required a key and private credential prompt timed out",
+      "Spatial/coverage turn: no user detector weights or camera labels available",
+      "CTC turn: workspace file audit still contains only generated models; no credential or repository release assets"
+    ],
+    "independent_progress_completed": "Baseline, U-Net, spatial and CTC studies; exact uncertainty and decoder tests; inference adapters and protocol guards",
+    "why_external_input_is_required": "Further public-benchmark tuning cannot verify the user previously trained detector or provide an untouched labelled camera holdout. Model weights and independent ground truth cannot be fabricated."
+  },
+  "resume_inputs": [
+    "YOLO checkpoint export or authenticated Roboflow access",
+    "Real crop registrations with capture/video source groups",
+    "Independent blurred-camera examples and detector crop/error evidence"
+  ],
+  "recorded_goal_status": "blocked",
+  "natural_blur_label_requirement": "Verify a readable reference frame of the same plate track; never guess unknown plate text or use reference pixels as single-crop prediction input"
+}

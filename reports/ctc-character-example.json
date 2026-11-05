@@ -1,0 +1,1548 @@
+{
+  "selection": "first row of the capacity-seven public benchmark manifest",
+  "source": "eu1.jpg",
+  "upstream_label": "M5XSX",
+  "top_prediction": "M55XSX",
+  "true_plate_rank_within50": 17,
+  "position_probability_kind": "ctc_ordered_output_marginal_including_absence",
+  "positions": [
+    {
+      "position": 0,
+      "alternatives": [
+        {
+          "index": 13,
+          "character": "M",
+          "probability": 0.22644108937587823
+        },
+        {
+          "index": 33,
+          "character": "6",
+          "probability": 0.10744425816178356
+        },
+        {
+          "index": 31,
+          "character": "4",
+          "probability": 0.06523750036355314
+        },
+        {
+          "index": 30,
+          "character": "3",
+          "probability": 0.05564396603392967
+        },
+        {
+          "index": 10,
+          "character": "J",
+          "probability": 0.05561124741444603
+        },
+        {
+          "index": 35,
+          "character": "8",
+          "probability": 0.05269207578856216
+        },
+        {
+          "index": 4,
+          "character": "D",
+          "probability": 0.04186828670358329
+        },
+        {
+          "index": 15,
+          "character": "O",
+          "probability": 0.040928704951383545
+        },
+        {
+          "index": 19,
+          "character": "S",
+          "probability": 0.03287306555840775
+        },
+        {
+          "index": 11,
+          "character": "K",
+          "probability": 0.0295692082545671
+        },
+        {
+          "index": 2,
+          "character": "B",
+          "probability": 0.0264009475401766
+        },
+        {
+          "index": 17,
+          "character": "Q",
+          "probability": 0.02484032719050687
+        },
+        {
+          "index": 7,
+          "character": "G",
+          "probability": 0.022841503115962766
+        },
+        {
+          "index": 1,
+          "character": "A",
+          "probability": 0.022715422438296447
+        },
+        {
+          "index": 32,
+          "character": "5",
+          "probability": 0.02037814013625181
+        },
+        {
+          "index": 28,
+          "character": "1",
+          "probability": 0.01406013254136289
+        },
+        {
+          "index": 16,
+          "character": "P",
+          "probability": 0.013639149828198699
+        },
+        {
+          "index": 27,
+          "character": "0",
+          "probability": 0.011537141149812882
+        },
+        {
+          "index": 34,
+          "character": "7",
+          "probability": 0.011477621694102954
+        },
+        {
+          "index": 12,
+          "character": "L",
+          "probability": 0.010923335154659784
+        },
+        {
+          "index": 21,
+          "character": "U",
+          "probability": 0.01064299746670049
+        },
+        {
+          "index": 29,
+          "character": "2",
+          "probability": 0.010617071535362137
+        },
+        {
+          "index": 3,
+          "character": "C",
+          "probability": 0.010263166196538175
+        },
+        {
+          "index": 26,
+          "character": "Z",
+          "probability": 0.009100834922128407
+        },
+        {
+          "index": 25,
+          "character": "Y",
+          "probability": 0.008608601922804804
+        },
+        {
+          "index": 5,
+          "character": "E",
+          "probability": 0.008478646639672455
+        },
+        {
+          "index": 36,
+          "character": "9",
+          "probability": 0.00840457812109709
+        },
+        {
+          "index": 24,
+          "character": "X",
+          "probability": 0.008158420353329419
+        },
+        {
+          "index": 23,
+          "character": "W",
+          "probability": 0.007050271435831625
+        },
+        {
+          "index": 9,
+          "character": "I",
+          "probability": 0.00601709836603853
+        },
+        {
+          "index": 20,
+          "character": "T",
+          "probability": 0.0054278787488593145
+        },
+        {
+          "index": 14,
+          "character": "N",
+          "probability": 0.005318113865064917
+        },
+        {
+          "index": 18,
+          "character": "R",
+          "probability": 0.005054623179934735
+        },
+        {
+          "index": 22,
+          "character": "V",
+          "probability": 0.004353171327556936
+        },
+        {
+          "index": 8,
+          "character": "H",
+          "probability": 0.0027627754530760652
+        },
+        {
+          "index": 6,
+          "character": "F",
+          "probability": 0.0026186270705785436
+        },
+        {
+          "index": 0,
+          "character": null,
+          "probability": 1.0096364885698416e-18
+        }
+      ]
+    },
+    {
+      "position": 1,
+      "alternatives": [
+        {
+          "index": 13,
+          "character": "M",
+          "probability": 0.7759046826630168
+        },
+        {
+          "index": 32,
+          "character": "5",
+          "probability": 0.22286666383222223
+        },
+        {
+          "index": 14,
+          "character": "N",
+          "probability": 9.650528539279726e-05
+        },
+        {
+          "index": 9,
+          "character": "I",
+          "probability": 9.270317763256794e-05
+        },
+        {
+          "index": 33,
+          "character": "6",
+          "probability": 9.013521669676001e-05
+        },
+        {
+          "index": 6,
+          "character": "F",
+          "probability": 6.786425945626822e-05
+        },
+        {
+          "index": 23,
+          "character": "W",
+          "probability": 5.751312662485688e-05
+        },
+        {
+          "index": 20,
+          "character": "T",
+          "probability": 5.565537365284596e-05
+        },
+        {
+          "index": 8,
+          "character": "H",
+          "probability": 4.749082200227604e-05
+        },
+        {
+          "index": 4,
+          "character": "D",
+          "probability": 4.3374162847478464e-05
+        },
+        {
+          "index": 5,
+          "character": "E",
+          "probability": 4.120449310066982e-05
+        },
+        {
+          "index": 18,
+          "character": "R",
+          "probability": 3.873414829086771e-05
+        },
+        {
+          "index": 11,
+          "character": "K",
+          "probability": 3.678634506448466e-05
+        },
+        {
+          "index": 16,
+          "character": "P",
+          "probability": 3.6779271912616793e-05
+        },
+        {
+          "index": 12,
+          "character": "L",
+          "probability": 3.489667541448916e-05
+        },
+        {
+          "index": 35,
+          "character": "8",
+          "probability": 3.441518253840156e-05
+        },
+        {
+          "index": 24,
+          "character": "X",
+          "probability": 3.09894218285496e-05
+        },
+        {
+          "index": 25,
+          "character": "Y",
+          "probability": 3.0260080376636626e-05
+        },
+        {
+          "index": 10,
+          "character": "J",
+          "probability": 2.8460796311316378e-05
+        },
+        {
+          "index": 2,
+          "character": "B",
+          "probability": 2.747954188403005e-05
+        },
+        {
+          "index": 21,
+          "character": "U",
+          "probability": 2.5768500798833875e-05
+        },
+        {
+          "index": 19,
+          "character": "S",
+          "probability": 2.4746647359771782e-05
+        },
+        {
+          "index": 34,
+          "character": "7",
+          "probability": 2.4137262323144394e-05
+        },
+        {
+          "index": 3,
+          "character": "C",
+          "probability": 2.4042755684317132e-05
+        },
+        {
+          "index": 30,
+          "character": "3",
+          "probability": 2.4021605288373625e-05
+        },
+        {
+          "index": 7,
+          "character": "G",
+          "probability": 2.362065108868875e-05
+        },
+        {
+          "index": 36,
+          "character": "9",
+          "probability": 2.2868371778736593e-05
+        },
+        {
+          "index": 15,
+          "character": "O",
+          "probability": 2.2835318337685806e-05
+        },
+        {
+          "index": 27,
+          "character": "0",
+          "probability": 2.1695934999612776e-05
+        },
+        {
+          "index": 1,
+          "character": "A",
+          "probability": 2.0706830749126803e-05
+        },
+        {
+          "index": 29,
+          "character": "2",
+          "probability": 2.0248602660864596e-05
+        },
+        {
+          "index": 28,
+          "character": "1",
+          "probability": 1.908460847001408e-05
+        },
+        {
+          "index": 17,
+          "character": "Q",
+          "probability": 1.8223540720443923e-05
+        },
+        {
+          "index": 31,
+          "character": "4",
+          "probability": 1.639103677649883e-05
+        },
+        {
+          "index": 26,
+          "character": "Z",
+          "probability": 1.5822219927780677e-05
+        },
+        {
+          "index": 22,
+          "character": "V",
+          "probability": 1.3192236759094944e-05
+        },
+        {
+          "index": 0,
+          "character": null,
+          "probability": 9.93460826785059e-15
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "alternatives": [
+        {
+          "index": 32,
+          "character": "5",
+          "probability": 0.9218468690346612
+        },
+        {
+          "index": 9,
+          "character": "I",
+          "probability": 0.040734258489347856
+        },
+        {
+          "index": 24,
+          "character": "X",
+          "probability": 0.014660827285222895
+        },
+        {
+          "index": 5,
+          "character": "E",
+          "probability": 0.0034794858203887912
+        },
+        {
+          "index": 28,
+          "character": "1",
+          "probability": 0.0023107597368216977
+        },
+        {
+          "index": 29,
+          "character": "2",
+          "probability": 0.0016081684610263906
+        },
+        {
+          "index": 6,
+          "character": "F",
+          "probability": 0.001288720725574724
+        },
+        {
+          "index": 13,
+          "character": "M",
+          "probability": 0.001178526864517973
+        },
+        {
+          "index": 11,
+          "character": "K",
+          "probability": 0.0009367328621814914
+        },
+        {
+          "index": 1,
+          "character": "A",
+          "probability": 0.0008723743667822745
+        },
+        {
+          "index": 12,
+          "character": "L",
+          "probability": 0.0008188760008625168
+        },
+        {
+          "index": 30,
+          "character": "3",
+          "probability": 0.0008054331668309695
+        },
+        {
+          "index": 20,
+          "character": "T",
+          "probability": 0.0007633664609875248
+        },
+        {
+          "index": 10,
+          "character": "J",
+          "probability": 0.0007526391849502495
+        },
+        {
+          "index": 19,
+          "character": "S",
+          "probability": 0.0007456759010956894
+        },
+        {
+          "index": 33,
+          "character": "6",
+          "probability": 0.0006737123327944353
+        },
+        {
+          "index": 25,
+          "character": "Y",
+          "probability": 0.0006030585782198423
+        },
+        {
+          "index": 7,
+          "character": "G",
+          "probability": 0.0005883790506404902
+        },
+        {
+          "index": 35,
+          "character": "8",
+          "probability": 0.000583585393436238
+        },
+        {
+          "index": 26,
+          "character": "Z",
+          "probability": 0.0005557704391655162
+        },
+        {
+          "index": 2,
+          "character": "B",
+          "probability": 0.0004734731803668124
+        },
+        {
+          "index": 23,
+          "character": "W",
+          "probability": 0.0004534383875248909
+        },
+        {
+          "index": 3,
+          "character": "C",
+          "probability": 0.00042647866144217137
+        },
+        {
+          "index": 16,
+          "character": "P",
+          "probability": 0.00042265057088383874
+        },
+        {
+          "index": 8,
+          "character": "H",
+          "probability": 0.0003782677252675253
+        },
+        {
+          "index": 14,
+          "character": "N",
+          "probability": 0.0003304696674847128
+        },
+        {
+          "index": 18,
+          "character": "R",
+          "probability": 0.00028938009927942376
+        },
+        {
+          "index": 31,
+          "character": "4",
+          "probability": 0.0002568067426269701
+        },
+        {
+          "index": 34,
+          "character": "7",
+          "probability": 0.00023837453900915861
+        },
+        {
+          "index": 17,
+          "character": "Q",
+          "probability": 0.00021081344701091986
+        },
+        {
+          "index": 36,
+          "character": "9",
+          "probability": 0.00018897301494638348
+        },
+        {
+          "index": 15,
+          "character": "O",
+          "probability": 0.00015314131472197158
+        },
+        {
+          "index": 21,
+          "character": "U",
+          "probability": 0.00013867196385257375
+        },
+        {
+          "index": 22,
+          "character": "V",
+          "probability": 0.00010652675879404228
+        },
+        {
+          "index": 4,
+          "character": "D",
+          "probability": 8.593078287371735e-05
+        },
+        {
+          "index": 27,
+          "character": "0",
+          "probability": 3.938295112668048e-05
+        },
+        {
+          "index": 0,
+          "character": null,
+          "probability": 3.727938614319479e-11
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "alternatives": [
+        {
+          "index": 32,
+          "character": "5",
+          "probability": 0.5128220000878676
+        },
+        {
+          "index": 24,
+          "character": "X",
+          "probability": 0.2597584426683565
+        },
+        {
+          "index": 9,
+          "character": "I",
+          "probability": 0.14117642597182412
+        },
+        {
+          "index": 19,
+          "character": "S",
+          "probability": 0.014747215649766663
+        },
+        {
+          "index": 5,
+          "character": "E",
+          "probability": 0.011855491077435505
+        },
+        {
+          "index": 28,
+          "character": "1",
+          "probability": 0.007915740681860654
+        },
+        {
+          "index": 29,
+          "character": "2",
+          "probability": 0.005475663826530207
+        },
+        {
+          "index": 6,
+          "character": "F",
+          "probability": 0.003802686318238852
+        },
+        {
+          "index": 11,
+          "character": "K",
+          "probability": 0.0031993668890324643
+        },
+        {
+          "index": 13,
+          "character": "M",
+          "probability": 0.0031086606259144666
+        },
+        {
+          "index": 1,
+          "character": "A",
+          "probability": 0.0029518394586824396
+        },
+        {
+          "index": 7,
+          "character": "G",
+          "probability": 0.0028482819956052925
+        },
+        {
+          "index": 12,
+          "character": "L",
+          "probability": 0.002652150658877544
+        },
+        {
+          "index": 30,
+          "character": "3",
+          "probability": 0.002591638830665466
+        },
+        {
+          "index": 20,
+          "character": "T",
+          "probability": 0.0024806145771104297
+        },
+        {
+          "index": 10,
+          "character": "J",
+          "probability": 0.002459532900355439
+        },
+        {
+          "index": 25,
+          "character": "Y",
+          "probability": 0.0019958167891042547
+        },
+        {
+          "index": 35,
+          "character": "8",
+          "probability": 0.0019434601383300837
+        },
+        {
+          "index": 26,
+          "character": "Z",
+          "probability": 0.0018986367356845126
+        },
+        {
+          "index": 2,
+          "character": "B",
+          "probability": 0.0014885872652787568
+        },
+        {
+          "index": 23,
+          "character": "W",
+          "probability": 0.00141399382887577
+        },
+        {
+          "index": 33,
+          "character": "6",
+          "probability": 0.0013455023900215525
+        },
+        {
+          "index": 3,
+          "character": "C",
+          "probability": 0.0013160271519572174
+        },
+        {
+          "index": 16,
+          "character": "P",
+          "probability": 0.0012192226279850377
+        },
+        {
+          "index": 8,
+          "character": "H",
+          "probability": 0.001218098396409482
+        },
+        {
+          "index": 14,
+          "character": "N",
+          "probability": 0.0011112344325078544
+        },
+        {
+          "index": 18,
+          "character": "R",
+          "probability": 0.0009590452860165193
+        },
+        {
+          "index": 31,
+          "character": "4",
+          "probability": 0.0008759297419807989
+        },
+        {
+          "index": 34,
+          "character": "7",
+          "probability": 0.0007641880213139634
+        },
+        {
+          "index": 17,
+          "character": "Q",
+          "probability": 0.0006563277763969275
+        },
+        {
+          "index": 36,
+          "character": "9",
+          "probability": 0.0004545645476651217
+        },
+        {
+          "index": 21,
+          "character": "U",
+          "probability": 0.00041363214023665745
+        },
+        {
+          "index": 15,
+          "character": "O",
+          "probability": 0.00039556738658632777
+        },
+        {
+          "index": 22,
+          "character": "V",
+          "probability": 0.0003373947720644608
+        },
+        {
+          "index": 4,
+          "character": "D",
+          "probability": 0.0002491035808440976
+        },
+        {
+          "index": 27,
+          "character": "0",
+          "probability": 9.784910297648649e-05
+        },
+        {
+          "index": 0,
+          "character": null,
+          "probability": 6.566964019218051e-08
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "alternatives": [
+        {
+          "index": 24,
+          "character": "X",
+          "probability": 0.7419631270207699
+        },
+        {
+          "index": 19,
+          "character": "S",
+          "probability": 0.23177203797451712
+        },
+        {
+          "index": 7,
+          "character": "G",
+          "probability": 0.01938634513465029
+        },
+        {
+          "index": 32,
+          "character": "5",
+          "probability": 0.0009607683494532452
+        },
+        {
+          "index": 9,
+          "character": "I",
+          "probability": 0.0005282612272688947
+        },
+        {
+          "index": 1,
+          "character": "A",
+          "probability": 0.0005117441903711628
+        },
+        {
+          "index": 3,
+          "character": "C",
+          "probability": 0.0004366354780303815
+        },
+        {
+          "index": 36,
+          "character": "9",
+          "probability": 0.00039932832003597576
+        },
+        {
+          "index": 29,
+          "character": "2",
+          "probability": 0.0003830445900019286
+        },
+        {
+          "index": 33,
+          "character": "6",
+          "probability": 0.0003751435011522094
+        },
+        {
+          "index": 11,
+          "character": "K",
+          "probability": 0.00031272980278697647
+        },
+        {
+          "index": 15,
+          "character": "O",
+          "probability": 0.00023693562609974336
+        },
+        {
+          "index": 6,
+          "character": "F",
+          "probability": 0.00021788320695993016
+        },
+        {
+          "index": 31,
+          "character": "4",
+          "probability": 0.00018580128977990277
+        },
+        {
+          "index": 28,
+          "character": "1",
+          "probability": 0.00017680119895029144
+        },
+        {
+          "index": 10,
+          "character": "J",
+          "probability": 0.00016441652494463593
+        },
+        {
+          "index": 21,
+          "character": "U",
+          "probability": 0.00016359102024258995
+        },
+        {
+          "index": 2,
+          "character": "B",
+          "probability": 0.00015509323899388244
+        },
+        {
+          "index": 4,
+          "character": "D",
+          "probability": 0.00014230179780252636
+        },
+        {
+          "index": 25,
+          "character": "Y",
+          "probability": 0.0001368365951795652
+        },
+        {
+          "index": 20,
+          "character": "T",
+          "probability": 0.00012149455499033553
+        },
+        {
+          "index": 27,
+          "character": "0",
+          "probability": 0.00011281913825962808
+        },
+        {
+          "index": 30,
+          "character": "3",
+          "probability": 0.00010677677282738689
+        },
+        {
+          "index": 34,
+          "character": "7",
+          "probability": 0.00010610881311499524
+        },
+        {
+          "index": 23,
+          "character": "W",
+          "probability": 9.442670722837636e-05
+        },
+        {
+          "index": 22,
+          "character": "V",
+          "probability": 9.348906325797897e-05
+        },
+        {
+          "index": 16,
+          "character": "P",
+          "probability": 9.18986093586693e-05
+        },
+        {
+          "index": 5,
+          "character": "E",
+          "probability": 8.962180020073635e-05
+        },
+        {
+          "index": 17,
+          "character": "Q",
+          "probability": 8.58708611754351e-05
+        },
+        {
+          "index": 26,
+          "character": "Z",
+          "probability": 8.223917753704635e-05
+        },
+        {
+          "index": 12,
+          "character": "L",
+          "probability": 7.976379815114998e-05
+        },
+        {
+          "index": 18,
+          "character": "R",
+          "probability": 7.692334760902522e-05
+        },
+        {
+          "index": 8,
+          "character": "H",
+          "probability": 7.113091666620143e-05
+        },
+        {
+          "index": 0,
+          "character": null,
+          "probability": 5.2606893506943405e-05
+        },
+        {
+          "index": 14,
+          "character": "N",
+          "probability": 4.9376130050159914e-05
+        },
+        {
+          "index": 13,
+          "character": "M",
+          "probability": 4.6278457107933515e-05
+        },
+        {
+          "index": 35,
+          "character": "8",
+          "probability": 3.034887096669326e-05
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "alternatives": [
+        {
+          "index": 19,
+          "character": "S",
+          "probability": 0.6584838654798933
+        },
+        {
+          "index": 24,
+          "character": "X",
+          "probability": 0.2579839243526844
+        },
+        {
+          "index": 7,
+          "character": "G",
+          "probability": 0.05505396856496435
+        },
+        {
+          "index": 0,
+          "character": null,
+          "probability": 0.01427565955231563
+        },
+        {
+          "index": 1,
+          "character": "A",
+          "probability": 0.0013855488906192692
+        },
+        {
+          "index": 3,
+          "character": "C",
+          "probability": 0.0012144628073686053
+        },
+        {
+          "index": 36,
+          "character": "9",
+          "probability": 0.0011254297544205647
+        },
+        {
+          "index": 33,
+          "character": "6",
+          "probability": 0.001048793594265121
+        },
+        {
+          "index": 29,
+          "character": "2",
+          "probability": 0.0008458489662699615
+        },
+        {
+          "index": 15,
+          "character": "O",
+          "probability": 0.0006571879958020679
+        },
+        {
+          "index": 11,
+          "character": "K",
+          "probability": 0.0006473901042740014
+        },
+        {
+          "index": 6,
+          "character": "F",
+          "probability": 0.0005699597998391939
+        },
+        {
+          "index": 32,
+          "character": "5",
+          "probability": 0.00048620607419078236
+        },
+        {
+          "index": 21,
+          "character": "U",
+          "probability": 0.00043730989387511237
+        },
+        {
+          "index": 31,
+          "character": "4",
+          "probability": 0.0004250853089002383
+        },
+        {
+          "index": 9,
+          "character": "I",
+          "probability": 0.00040976162207882657
+        },
+        {
+          "index": 2,
+          "character": "B",
+          "probability": 0.0004079091235775875
+        },
+        {
+          "index": 28,
+          "character": "1",
+          "probability": 0.0003887619924066526
+        },
+        {
+          "index": 4,
+          "character": "D",
+          "probability": 0.00037842122993504587
+        },
+        {
+          "index": 10,
+          "character": "J",
+          "probability": 0.00036846378158424386
+        },
+        {
+          "index": 20,
+          "character": "T",
+          "probability": 0.0003077408961532906
+        },
+        {
+          "index": 27,
+          "character": "0",
+          "probability": 0.00030135183552949183
+        },
+        {
+          "index": 25,
+          "character": "Y",
+          "probability": 0.0002900092301607393
+        },
+        {
+          "index": 34,
+          "character": "7",
+          "probability": 0.0002732562861346113
+        },
+        {
+          "index": 22,
+          "character": "V",
+          "probability": 0.00024205576872745476
+        },
+        {
+          "index": 16,
+          "character": "P",
+          "probability": 0.00024190063719972617
+        },
+        {
+          "index": 30,
+          "character": "3",
+          "probability": 0.0002416256350299522
+        },
+        {
+          "index": 23,
+          "character": "W",
+          "probability": 0.00020888905627063832
+        },
+        {
+          "index": 17,
+          "character": "Q",
+          "probability": 0.00020824098400651418
+        },
+        {
+          "index": 18,
+          "character": "R",
+          "probability": 0.00019570383579834604
+        },
+        {
+          "index": 26,
+          "character": "Z",
+          "probability": 0.00017629605252101013
+        },
+        {
+          "index": 8,
+          "character": "H",
+          "probability": 0.00016870314258434665
+        },
+        {
+          "index": 12,
+          "character": "L",
+          "probability": 0.00015018541435706016
+        },
+        {
+          "index": 5,
+          "character": "E",
+          "probability": 0.0001344120035319922
+        },
+        {
+          "index": 14,
+          "character": "N",
+          "probability": 0.00012495270985000276
+        },
+        {
+          "index": 13,
+          "character": "M",
+          "probability": 7.50829930780676e-05
+        },
+        {
+          "index": 35,
+          "character": "8",
+          "probability": 6.563462980146145e-05
+        }
+      ]
+    },
+    {
+      "position": 6,
+      "alternatives": [
+        {
+          "index": 24,
+          "character": "X",
+          "probability": 0.7243274881765785
+        },
+        {
+          "index": 0,
+          "character": null,
+          "probability": 0.27080783703193995
+        },
+        {
+          "index": 19,
+          "character": "S",
+          "probability": 0.002284056280728408
+        },
+        {
+          "index": 11,
+          "character": "K",
+          "probability": 0.0002560482502964017
+        },
+        {
+          "index": 7,
+          "character": "G",
+          "probability": 0.0002212255828449461
+        },
+        {
+          "index": 9,
+          "character": "I",
+          "probability": 0.00020891155458174947
+        },
+        {
+          "index": 29,
+          "character": "2",
+          "probability": 0.00017453260579796198
+        },
+        {
+          "index": 20,
+          "character": "T",
+          "probability": 0.00016777533447269376
+        },
+        {
+          "index": 26,
+          "character": "Z",
+          "probability": 0.00014846403443839317
+        },
+        {
+          "index": 1,
+          "character": "A",
+          "probability": 0.0001381858461373227
+        },
+        {
+          "index": 12,
+          "character": "L",
+          "probability": 0.00012245080055784223
+        },
+        {
+          "index": 10,
+          "character": "J",
+          "probability": 0.00011061890321872451
+        },
+        {
+          "index": 31,
+          "character": "4",
+          "probability": 9.061123918885473e-05
+        },
+        {
+          "index": 28,
+          "character": "1",
+          "probability": 7.547875361247169e-05
+        },
+        {
+          "index": 25,
+          "character": "Y",
+          "probability": 6.84279276349561e-05
+        },
+        {
+          "index": 34,
+          "character": "7",
+          "probability": 6.51246711557066e-05
+        },
+        {
+          "index": 23,
+          "character": "W",
+          "probability": 5.847792621338656e-05
+        },
+        {
+          "index": 6,
+          "character": "F",
+          "probability": 5.54560838258227e-05
+        },
+        {
+          "index": 8,
+          "character": "H",
+          "probability": 5.128201804395406e-05
+        },
+        {
+          "index": 13,
+          "character": "M",
+          "probability": 4.6575839817612913e-05
+        },
+        {
+          "index": 22,
+          "character": "V",
+          "probability": 4.610757215639933e-05
+        },
+        {
+          "index": 32,
+          "character": "5",
+          "probability": 4.498827416538461e-05
+        },
+        {
+          "index": 30,
+          "character": "3",
+          "probability": 4.3773389362384615e-05
+        },
+        {
+          "index": 5,
+          "character": "E",
+          "probability": 4.2395357650272506e-05
+        },
+        {
+          "index": 21,
+          "character": "U",
+          "probability": 3.775398577107576e-05
+        },
+        {
+          "index": 15,
+          "character": "O",
+          "probability": 3.418235667657339e-05
+        },
+        {
+          "index": 4,
+          "character": "D",
+          "probability": 3.188617276296235e-05
+        },
+        {
+          "index": 27,
+          "character": "0",
+          "probability": 3.1810902069548353e-05
+        },
+        {
+          "index": 17,
+          "character": "Q",
+          "probability": 3.090880775736534e-05
+        },
+        {
+          "index": 3,
+          "character": "C",
+          "probability": 3.003167567430882e-05
+        },
+        {
+          "index": 18,
+          "character": "R",
+          "probability": 2.9948798557321304e-05
+        },
+        {
+          "index": 2,
+          "character": "B",
+          "probability": 2.616087449516548e-05
+        },
+        {
+          "index": 14,
+          "character": "N",
+          "probability": 2.185360241734159e-05
+        },
+        {
+          "index": 16,
+          "character": "P",
+          "probability": 2.116671508155033e-05
+        },
+        {
+          "index": 36,
+          "character": "9",
+          "probability": 1.8030217211472508e-05
+        },
+        {
+          "index": 33,
+          "character": "6",
+          "probability": 1.5352996385181266e-05
+        },
+        {
+          "index": 35,
+          "character": "8",
+          "probability": 1.461944071987589e-05
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "plate": "M55XSX",
+      "log_score": -2.028175927791439
+    },
+    {
+      "plate": "6M55XSX",
+      "log_score": -2.7589714721948884
+    },
+    {
+      "plate": "4M55XSX",
+      "log_score": -3.2579355024503283
+    },
+    {
+      "plate": "M5IXSX",
+      "log_score": -3.318821973360761
+    },
+    {
+      "plate": "3M55XSX",
+      "log_score": -3.416970728664365
+    },
+    {
+      "plate": "JM55XSX",
+      "log_score": -3.41757931947805
+    },
+    {
+      "plate": "8M55XSX",
+      "log_score": -3.4715847539696445
+    },
+    {
+      "plate": "DM55XSX",
+      "log_score": -3.701639497029639
+    },
+    {
+      "plate": "OM55XSX",
+      "log_score": -3.7241344312442646
+    },
+    {
+      "plate": "SM55XSX",
+      "log_score": -3.9433516146339604
+    },
+    {
+      "plate": "KM55XSX",
+      "log_score": -4.049422763396583
+    },
+    {
+      "plate": "6M5IXSX",
+      "log_score": -4.04961748119972
+    },
+    {
+      "plate": "BM55XSX",
+      "log_score": -4.162635680605068
+    },
+    {
+      "plate": "QM55XSX",
+      "log_score": -4.2235303149448935
+    },
+    {
+      "plate": "GM55XSX",
+      "log_score": -4.307371655501201
+    },
+    {
+      "plate": "AM55XSX",
+      "log_score": -4.312975536953699
+    },
+    {
+      "plate": "M5XSX",
+      "log_score": -4.422067727869038
+    },
+    {
+      "plate": "5M55XSX",
+      "log_score": -4.426785552131177
+    },
+    {
+      "plate": "M55XGX",
+      "log_score": -4.510410630430272
+    },
+    {
+      "plate": "4M5IXSX",
+      "log_score": -4.548581511452141
+    },
+    {
+      "plate": "3M5IXSX",
+      "log_score": -4.707616737669054
+    },
+    {
+      "plate": "JM5IXSX",
+      "log_score": -4.7082253284802205
+    },
+    {
+      "plate": "8M5IXSX",
+      "log_score": -4.762230762962767
+    },
+    {
+      "plate": "1M55XSX",
+      "log_score": -4.792638596219811
+    },
+    {
+      "plate": "PM55XSX",
+      "log_score": -4.823181066149101
+    },
+    {
+      "plate": "0M55XSX",
+      "log_score": -4.990606134422465
+    },
+    {
+      "plate": "DM5IXSX",
+      "log_score": -4.99228550600989
+    },
+    {
+      "plate": "7M55XSX",
+      "log_score": -4.995727484228144
+    },
+    {
+      "plate": "OM5IXSX",
+      "log_score": -5.014780440246654
+    },
+    {
+      "plate": "LM55XSX",
+      "log_score": -5.045293551374057
+    },
+    {
+      "plate": "UM55XSX",
+      "log_score": -5.071412164689138
+    },
+    {
+      "plate": "2M55XSX",
+      "log_score": -5.073591886451866
+    },
+    {
+      "plate": "CM55XSX",
+      "log_score": -5.107483519692421
+    },
+    {
+      "plate": "6M5XSX",
+      "log_score": -5.152863232043017
+    },
+    {
+      "plate": "ZM55XSX",
+      "log_score": -5.227766313339343
+    },
+    {
+      "plate": "SM5IXSX",
+      "log_score": -5.233997623632023
+    },
+    {
+      "plate": "6M55XGX",
+      "log_score": -5.241206174833722
+    },
+    {
+      "plate": "YM55XSX",
+      "log_score": -5.28366212259696
+    },
+    {
+      "plate": "EM55XSX",
+      "log_score": -5.298796493780088
+    },
+    {
+      "plate": "9M55XSX",
+      "log_score": -5.307229693189758
+    },
+    {
+      "plate": "XM55XSX",
+      "log_score": -5.337152667313071
+    },
+    {
+      "plate": "KM5IXSX",
+      "log_score": -5.340068772378011
+    },
+    {
+      "plate": "BM5IXSX",
+      "log_score": -5.453281689599889
+    },
+    {
+      "plate": "WM55XSX",
+      "log_score": -5.484283859923478
+    },
+    {
+      "plate": "QM5IXSX",
+      "log_score": -5.514176323943632
+    },
+    {
+      "plate": "GM5IXSX",
+      "log_score": -5.598017664505398
+    },
+    {
+      "plate": "AM5IXSX",
+      "log_score": -5.603621545950288
+    },
+    {
+      "plate": "IM55XSX",
+      "log_score": -5.642026334022776
+    },
+    {
+      "plate": "4M5XSX",
+      "log_score": -5.65182723823485
+    },
+    {
+      "plate": "5M5IXSX",
+      "log_score": -5.71743156108008
+    }
+  ],
+  "length_overflow_probability": 0.004846461416001,
+  "limitations": [
+    "One illustrative crop does not establish population accuracy",
+    "Marginals are dependent model probabilities, not calibrated character accuracy",
+    "Null in ordered positions means absence after the string ends"
+  ]
+}

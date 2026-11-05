@@ -1,0 +1,54 @@
+{
+  "status": "incomplete_real_data_evaluation_required",
+  "protocol": {
+    "seed": 42,
+    "identities_total": 300,
+    "test_identities": 45,
+    "epochs": 15,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "pretrained": "ImageNet ResNet18",
+    "split_counts": {
+      "train": 420,
+      "val": 90,
+      "test": 90
+    },
+    "mask_loss_weight": 0.2
+  },
+  "environment": {
+    "torch": "2.15.0+cpu",
+    "torchvision": "0.29.2+cpu",
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0",
+    "pytest": "9.2.0",
+    "matplotlib": "3.11.2"
+  },
+  "validation": {
+    "pytest_passed": 55,
+    "unittest_subtests_passed": 24,
+    "ruff": "passed",
+    "pip_check": "passed",
+    "trained_model_adapter_equals_direct_crop": true
+  },
+  "limitations": [
+    "Synthetic monospaced single-layout data only; no real-camera test",
+    "Single seed, no evidence of statistical significance",
+    "Original condition includes generated clean and defocused variants",
+    "Test crops share 45 identities and are not 90 independent plate identities",
+    "Mask run also changes random head initialization; isolate the mask contribution across repeated matched initializations before a causal claim",
+    "Most true plates are absent even from top 50 candidates",
+    "Actual YOLO checkpoint execution and GPU training remain unverified",
+    "Real assets could not be fetched: private Roboflow API requires a key and the secret request timed out"
+  ],
+  "reports": [
+    "synthetic-rgb.json",
+    "synthetic-rgb-mask.json"
+  ],
+  "chart": "synthetic-candidate-recall.png",
+  "degradation_protocol": {
+    "original_condition": "Source crop without additional evaluation corruption; this does not mean a readable video reference frame",
+    "corrupted_conditions": "Synthetic defocus, motion, downsampling, JPEG and crop transformations applied to source images",
+    "natural_blur_video_evaluation_completed": false,
+    "reference_frame_track_labelling_completed": false
+  }
+}

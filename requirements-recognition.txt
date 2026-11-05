@@ -1,0 +1,9 @@
+# CPU PyTorch wheels can be installed separately; see README.md for setup.
+torch>=2.5,<3
+torchvision>=0.20,<0.30
+numpy>=2,<3
+Pillow>=11,<14
+
+# Keep development checks independent of the optional YOLO and notebook dependencies.
+pytest>=8,<10
+ruff>=0.9,<1

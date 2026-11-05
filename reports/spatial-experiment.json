@@ -1,0 +1,76 @@
+{
+  "status": "incomplete_real_plate_candidate_recall_failed",
+  "protocol": {
+    "seed": 42,
+    "epochs": 15,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "training_identities": 300,
+    "training_crops": 420,
+    "validation_crops": 90,
+    "synthetic_test_crops": 90,
+    "synthetic_test_identities": 45,
+    "real_test_crops": 107,
+    "real_unique_plate_labels": 103,
+    "source_revision": "9790ed20d475be1e940a7e2a3f492a97c2ebed9b",
+    "real_excluded_for_capacity": 1,
+    "real_temperature_fit": false,
+    "head_initialization_matched_for_new_variants": true,
+    "initial_trainable_tensors_match_global_vs_spatial": true,
+    "trainable_parameter_count_unchanged": true
+  },
+  "label_coverage_diagnostic": {
+    "training_format": "LLDDLLL",
+    "positive_training_class_counts_by_position": [
+      26,
+      26,
+      10,
+      10,
+      26,
+      26,
+      26
+    ],
+    "real_plates_with_unseen_position_class": 107,
+    "real_unseen_class_counts_by_position": [
+      13,
+      2,
+      13,
+      7,
+      101,
+      22,
+      23
+    ],
+    "interpretation": "All real plates require at least one class without positive training exposure at that head; this does not imply mathematically impossible predictions"
+  },
+  "observations": [
+    "Spatial features strongly improve synthetic candidate recall with the same parameter count",
+    "The matched U-Net did not improve the stronger spatial model overall in this single run",
+    "All three models have zero complete-plate recall at budgets 5/10/50 on this real benchmark",
+    "This benchmark differs in format and font from the synthetic training distribution",
+    "Public benchmark feedback is exploratory; the user camera data remains an independent evidence gate"
+  ],
+  "limitations": [
+    "One seed, one original synthetic font and format",
+    "Upstream benchmark labels are not independently verified human transcriptions",
+    "Real crops come from annotation boxes, not the user-trained YOLO",
+    "One eight-character label is explicitly excluded; current capacity remains seven",
+    "No source-session metadata; entire public source is held out from training and calibration",
+    "Transferred source calibration does not establish calibrated real-domain confidence",
+    "Actual user YOLO weights and GPU behavior remain unverified"
+  ],
+  "chart": "spatial-comparison.png",
+  "reports": [
+    "spatial-synthetic-global.json",
+    "spatial-synthetic-spatial.json",
+    "spatial-synthetic-spatial-mask.json",
+    "spatial-real-global.json",
+    "spatial-real-spatial.json",
+    "spatial-real-spatial-mask.json"
+  ],
+  "degradation_protocol": {
+    "original_condition": "Source crop without additional evaluation corruption; this does not mean a readable video reference frame",
+    "corrupted_conditions": "Synthetic defocus, motion, downsampling, JPEG and crop transformations applied to source images",
+    "natural_blur_video_evaluation_completed": false,
+    "reference_frame_track_labelling_completed": false
+  }
+}
